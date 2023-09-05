@@ -1,4 +1,4 @@
-# GitHub Flow Demo
+# Mock Interview Capstone Project Demo
 
 Use this template repository to practice GitHub Flow. 
 
