@@ -41,21 +41,6 @@ As the project moves along, the readme will be updated with this info.
 
 As the project moves along, the readme will be updated with this info. (Identify each of the response variables of interest. Any additional desired analysis should also be described here.)
 
-# Timeline
-
-[Sep.8.2023 - Sep.14.2023]:  
-* [PLAN]
-* Total work time: 
-
-[Sep.1.2023 - Sep.7.2023]:  
-* Talked with project director briefly about project idea, took this project (9.1, 20 min);
-* Did some prompt exploration, got feedback from project director about the next step and things to improve (9.6, 60 min);
-* [PLAN] Get done OpenAI API setup Issue#7; Come up a detail plan for approching this project
-* Total work time: 
-
-[Before Sep.1.2023]
-* Talked with CMC director about petential data he had, his concerns, and suggestions for the next step. (20 min)
-
 # Project logistics
 
 **Sprint planning**: 
@@ -90,3 +75,21 @@ CMC Faculty: Brook Meissner
 
 Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 
+# Timeline
+
+[Sep.8.2023 - Sep.17.2023]:  
+* Talked with Dr. Blocher, get dieas of what will be my next step (ect. customer interview (Issue #18), try the baseline (Issue #17), ...) (Issue #20) (9.11, 45 min)
+* Talked with Brook, get ideas of how he evaluate students' interview (Issue #19) (9.15, 50 min)
+* Talked with Dr. Spencer-Smith, get ideas of *Resume Review Prompt* (Issue #21) (9.15, 35 min)
+* Customer interviewed 3 cohorts (Issue #18) (9.13, 45 min; 9.17, 1 h)
+* Total work time: about 3h, 55min
+
+[Sep.1.2023 - Sep.7.2023]:  
+* Talked with project director briefly about project idea, took this project (9.1, 20 min);
+* Did some prompt exploration, got feedback from project director about the next step and things to improve (9.6, 60 min);
+* Get done OpenAI API setup (Issue#7) (30 min);
+* Come up a detail plan for approching this project (at least 2 h);
+* Total work time: about 3h, 50min
+
+[Before Sep.1.2023]
+* Talked with CMC director about petential data he had, his concerns, and suggestions for the next step. (20 min)
