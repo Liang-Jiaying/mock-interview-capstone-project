@@ -76,20 +76,33 @@ CMC Faculty: Brook Meissner
 Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 
 # Timeline
+[Oct.2.2023 - Oct.8.2023]:  
+* Use LangChain come up with a info template (Issue #11)
+* Create a Google Colab Notebook for prompt template (Issue #15)
+* Total work time: about h, min (Does not include learning time.)
+
+[Sep.18.2023 - Oct.1.2023]:  
+* File the notes for the conversation with Dr. Blocher (Issue #20) (9.18, 30 min)
+* File the notes for the conversation with Brook (Issue #19) (9.21, 30 min)
+* File the notes for the conversation Dr. Spencer-Smith (Issue #21) (9.21, 30 min)
+* Customer interviewed 3 cohorts (Issue #18) (9.21, 1 h; 9.25, 40 min)
+* Take notes for all 6 customer interviews, and come up develope ideas (Issue #18) (9.26-9.28, 4 h)
+* Updated my overall plan for this project (Issue #6) (9.28, 40 min)
+* Total work time: about 7h, 50min (Does not include learning time.)
 
 [Sep.8.2023 - Sep.17.2023]:  
 * Talked with Dr. Blocher, get dieas of what will be my next step (ect. customer interview (Issue #18), try the baseline (Issue #17), ...) (Issue #20) (9.11, 45 min)
 * Talked with Brook, get ideas of how he evaluate students' interview (Issue #19) (9.15, 50 min)
 * Talked with Dr. Spencer-Smith, get ideas of *Resume Review Prompt* (Issue #21) (9.15, 35 min)
 * Customer interviewed 3 cohorts (Issue #18) (9.13, 45 min; 9.17, 1 h)
-* Total work time: about 3h, 55min
+* Total work time: about 3h, 55min (Does not include learning time.)
 
 [Sep.1.2023 - Sep.7.2023]:  
 * Talked with project director briefly about project idea, took this project (9.1, 20 min);
 * Did some prompt exploration, got feedback from project director about the next step and things to improve (9.6, 60 min);
 * Get done OpenAI API setup (Issue#7) (30 min);
 * Come up a detail plan for approching this project (at least 2 h);
-* Total work time: about 3h, 50min
+* Total work time: about 3h, 50min (Does not include learning time.)
 
 [Before Sep.1.2023]
 * Talked with CMC director about petential data he had, his concerns, and suggestions for the next step. (20 min)
