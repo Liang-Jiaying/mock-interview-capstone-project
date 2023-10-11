@@ -5,11 +5,11 @@ I aim to develop a mock interview web application that DSI students can use to e
 # Quick navigation
 [Background](#background)  
 [Data](#data)  
-[Models](#models)  
-[Timeline](#timeline)  
+[Models](#models) 
 [Logistics](#project-logistics)  
 [Resources](#resources)  
-[Contact](#contact-info)
+[Contact](#contact-info)  
+[Timeline](#timeline) 
 
 # Goal
 **The application aims to resolve the following issues**:   
@@ -76,10 +76,15 @@ CMC Faculty: Brook Meissner
 Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 
 # Timeline
+[Oct.9.2023 - Oct.15.2023]:  
+* Try LangChain few shot example to see whether it output in the way I want it to output
+* Use prompt engineering ideas to get better prompt
+* Total work time: about 6h (Does not include learning time.)
+
 [Oct.2.2023 - Oct.8.2023]:  
-* Use LangChain come up with a info template (Issue #11)
-* Create a Google Colab Notebook for prompt template (Issue #15)
-* Total work time: about h, min (Does not include learning time.)
+* Use LangChain in Google Colab Notebook come up with a info template, and prompt template (Issue #11, #15)
+* Use prompt engineering ideas to get better prompt
+* Total work time: about 6h (Does not include learning time.)
 
 [Sep.18.2023 - Oct.1.2023]:  
 * File the notes for the conversation with Dr. Blocher (Issue #20) (9.18, 30 min)
