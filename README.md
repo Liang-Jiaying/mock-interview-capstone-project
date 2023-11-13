@@ -76,10 +76,42 @@ CMC Faculty: Brook Meissner
 Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 
 # Timeline
-[Oct.9.2023 - Oct.15.2023]:  
-* Try LangChain few shot example to see whether it output in the way I want it to output
-* Use prompt engineering ideas to get better prompt
-* Total work time: about 6h (Does not include learning time.)
+[Nov.27.2023 - Nov.30.2023]: [PLAN FOR THE WEEK AFTER]
+* Prepare AI Showcase (Issue #) ()
+* Total work time: about 5h
+
+[Nov.18.2023 - Nov.26.2023]:  THANKSGIVING BREAK
+
+[Nov.13.2023 - Nov.17.2023]: [This week To-Do]
+* Answer evaluation prompt (Issue #45) ()
+* Cover letter prompt (Issue #46) ()
+* Create gradio draft to combine resume_review + cover_letter + interview_question_answer (Issue #) ()
+* Total work time: about 20h (Does not include learning time.)
+
+[Nov.6.2023 - Nov.12.2023]:  
+* Interview question prompt (Issue #41) (10.24, 5 h)
+* Total work time: about 5h 
+
+[Oct.30.2023 - Nov.5.2023]:  
+* Prompt Engineering for ChatGPT Week 4 + notes (Issue #23) (10.24, 2.5 h)
+* Prompt Engineering for ChatGPT Week 4 + notes (Issue #24) (10.26, 2.5 h)
+* Prompt Engineering for ChatGPT Week 4 + notes (Issue #25) (10.26-10.29, 3 h)
+* Total work time: about 8h 
+
+[Oct.23.2023 - Oct.29.2023]:  
+* AI Summer Week4 Session 2 (Issue #32) (10.24, 2.5 h)
+* AI Summer Week4 Session 3 (Issue #33) (10.26, 2.5 h)
+* Create a gradio draft (Issue #42) (10.26-10.29, 6 h)
+* Total work time: about 11h 
+
+[Oct.18.2023 - Oct.22.2023]:  FALL BREAK
+
+[Oct.9.2023 - Oct.17.2023]:  
+* AI Summer Week3 Session 2 (Issue #13) + notes (10.9, 2.5 h)
+* Learning & analyze recommended prompt (Issue #35) (10.15, 1.5 h)
+* AI Summer Week3 Session 3 (Issue #30) (10.16, 2.5 h)
+* AI Summer Week4 Session 1 (Issue #31) (10.17, 2.5 h)
+* Total work time: about 9h 
 
 [Oct.2.2023 - Oct.8.2023]:  
 * Use LangChain in Google Colab Notebook come up with a info template, and prompt template (Issue #11, #15)
