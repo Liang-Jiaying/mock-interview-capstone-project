@@ -80,16 +80,18 @@ Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 * Prepare AI Showcase (Issue #) ()
 * Total work time: about 5h
 
-[Nov.18.2023 - Nov.26.2023]:  THANKSGIVING BREAK
-
-[Nov.13.2023 - Nov.17.2023]: [This week To-Do]
-* Answer evaluation prompt (Issue #45) ()
-* Cover letter prompt (Issue #46) ()
+[Nov.20.2023 - Nov.26.2023]:  THANKSGIVING BREAK
+* Meet with Brook (giving update, getting feedback, discussing future plan) (11.20, )
 * Create gradio draft to combine resume_review + cover_letter + interview_question_answer (Issue #) ()
-* Total work time: about 20h (Does not include learning time.)
+
+[Nov.13.2023 - Nov.19.2023]: [This week To-Do]
+* 1 prompt for generate different types of interview question by the request (11.19, 5h)
+* Answer evaluation prompt (Issue #45) (11.13-11.17, 5h)
+* Cover letter prompt (Issue #46) (11.18-11.19, 3h)
+* Total work time: about 13h
 
 [Nov.6.2023 - Nov.12.2023]:  
-* Interview question prompt (Issue #41) (10.24, 5 h)
+* Interview question prompt (Issue #41) (11.6-11.12, 5 h)
 * Total work time: about 5h 
 
 [Oct.30.2023 - Nov.5.2023]:  
