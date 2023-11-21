@@ -81,8 +81,10 @@ Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 * Total work time: about 5h
 
 [Nov.20.2023 - Nov.26.2023]:  THANKSGIVING BREAK
-* Meet with Brook (giving update, getting feedback, discussing future plan) (11.20, )
-* Create gradio draft to combine resume_review + cover_letter + interview_question_answer (Issue #) ()
+* Meet with Brook (giving update, getting feedback, discussing future plan) (Issue #53) (11.20, 2h)
+* Create gradio draft to combine resume_review + cover_letter + interview_question_answer (Issue #62) (11.20, 4h)
+* Meet with Dr. Blocher (giving update, getting feedback, discussing future plan) (11.21, 2h)
+* Total work time: about 8h
 
 [Nov.13.2023 - Nov.19.2023]: [This week To-Do]
 * 1 prompt for generate different types of interview question by the request (11.19, 5h)
