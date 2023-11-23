@@ -38,7 +38,12 @@ api_tab = gr.Interface(
     inputs = [gr.Textbox(label="OpenAI API Key*",
                          placeholder="Paste you OpenAI API key here ...", type="password")
     ],
-    outputs = gr.Textbox(label="Message"))
+    outputs = gr.Textbox(label="Message",
+                         placeholder="""
+Disclaimer: 
+This platform uses Artificial Intelligence (AI). Please do not share private or sensitive information during interactions, as AI cannot ensure confidentiality. Exercise discretion for your security."
+""")
+)
 
 ## 2. Tab-Resume Review
 
@@ -49,6 +54,7 @@ This is your resume {resume}. Please review the resume, job description, and com
 Give point by point feedback with rationale and suggested edits. Also, giving your examples based on your editing suggestions. 
 (optional: Here is the job description: {role_description}) 
 (optional: Here is a description of the company: {company_description})
+No need to include feedback on formatting.
 """
 
 # 2.2 define resume_review function
@@ -106,7 +112,18 @@ resume_review_tab = gr.Interface(
                          placeholder="Paste the URL here ..."),
               gr.File(file_types=[".pdf"])
     ],
-    outputs = gr.Textbox(label="Feedbacks", lines=50)
+    outputs = gr.Textbox(label="Feedbacks", lines=50,
+                         placeholder="""
+**Introduction**:
+This tab is designed for tailor your resume for specific role and company you are applying to. 
+
+**Instruction**:
+1. Reguired fields are: Company Name, Job Title, Who do you want to interview with, and your_resume (in .pdf version).
+2. Company Info, Job Description and Interviewer's LinkedIn URL are optional.
+
+**Disclaimer**: 
+This platform uses Artificial Intelligence (AI). Please do not share private or sensitive information during interactions, as AI cannot ensure confidentiality. Exercise discretion for your security.
+""")
 )
 
 
@@ -189,7 +206,18 @@ cover_letter_tab = gr.Interface(
                          placeholder="Paste the job description here ..."),
               gr.File(file_types=[".pdf"])
     ],
-    outputs = gr.Textbox(label="Feedbacks", lines=50)
+    outputs = gr.Textbox(label="Feedbacks", lines=50,
+                         placeholder="""
+**Introduction**:
+This tab is designed for helping users generate a cover letter that tailored for specific role and company the user is going to apply. 
+
+**Instruction**:
+1. Reguired fields are: Company Name, Job Title, and your_resume (in .pdf version).
+2. Company Info and Job Description are optional.
+
+**Disclaimer**: 
+This platform uses Artificial Intelligence (AI). Please do not share private or sensitive information during interactions, as AI cannot ensure confidentiality. Exercise discretion for your security.
+""")
 )
 
 
@@ -266,9 +294,19 @@ interview_question_tab = gr.Interface(
               gr.Textbox(label="Job Description (Optional)",
                          placeholder="Paste the job description here ...")
     ],
-    outputs = gr.Textbox(label="Feedbacks", lines=50)
-)
+    outputs = gr.Textbox(label="Feedbacks", lines=50,
+                         placeholder="""
+**Introduction**:
+This tab is designed for generate the interview questions that interviewer might ask for the specific role and company the user applied. 
 
+**Instruction**:
+1. Reguired fields are: Company Name, Job Title, and the type of interview questions you want to prepare.
+2. Company Info and Job Description are optional, but including those information will help you get more relevant questions about the role.
+
+**Disclaimer**: 
+This platform uses Artificial Intelligence (AI). Please do not share private or sensitive information during interactions, as AI cannot ensure confidentiality. Exercise discretion for your security.
+""")
+)
 
 ## 5. Tab-Answer Evaluation
 
@@ -322,7 +360,7 @@ In summary, behavioral interviews are designed to evaluate a candidate's suitabi
 """
 
 # 5.2 define answer_evaluation function
-def answer_evaluation(comp_name, job_title, inter_q, q_a="", comp_info="", job_des=""):
+def answer_evaluation(comp_name, job_title, inter_q, q_a, comp_info="", job_des=""):
 
   #### Step 1: Create prompt ####
   # 1. Define variables in prompt
@@ -367,14 +405,25 @@ answer_evaluation_tab = gr.Interface(
                          placeholder="The job title you are going to apply goes here ..."),
               gr.Textbox(label="Interview Question*",
                          placeholder="Paste the question you want to prepare here ..."),
-              gr.Textbox(label="Your Answer",
+              gr.Textbox(label="Your Answer*",
                           placeholder="Type your answer for the interview question here ..."),
               gr.Textbox(label="Company Info (Optional)",
                          placeholder="Sepcial information about this company you want to include"),
               gr.Textbox(label="Job Description (Optional)",
                          placeholder="Paste the job description here ...")
     ],
-    outputs = gr.Textbox(label="Feedbacks", lines=50)
+    outputs = gr.Textbox(label="Feedbacks", lines=50,
+                         placeholder="""
+**Introduction**:
+This tab is designed for improve uers' answers for certain interview question. 
+
+**Instruction**:
+1. Reguired fields are: Company Name, Job Title, Interview Question, and Your Answer.
+2. Company Info and Job Description are optional, but including those information will help you get more relevant answer for the interview question about the role.
+
+**Disclaimer**: 
+This platform uses Artificial Intelligence (AI). Please do not share private or sensitive information during interactions, as AI cannot ensure confidentiality. Exercise discretion for your security.
+""")
 )
 
 
@@ -392,7 +441,7 @@ demo = gr.TabbedInterface([api_tab,
                              "Resume Review",
                              "Cover Letter",
                              "Interview Questions Generator",
-                             "Prepare Interview Question"]
+                             "Improve Interview Answer"]
                           )
 
 if __name__ == "__main__":
