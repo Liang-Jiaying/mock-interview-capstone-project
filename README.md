@@ -1,9 +1,23 @@
-# Mock Interview Capstone Project Repository
+# Personal Career Coach
 [Hugging Face Space: MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
 [Video Recording: Overview](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/c96fdb11-1b9c-46db-9713-735a346069bd)  
 
-{TEXT OVERVIEW HERE}
+### Overview
+Have you ever found yourself in the midst of job hunting season, overwhelmed with tasks on your to-do list, yet unsure where to start or how to make that first step? Our Personal Career Coach understands your struggles and offers personalized assistance to guide you.    
 
+Objectives of the Personal Career Coach Project:
+1. **Resume Review**: We review your resume and provide feedback tailored to the job and company you are applying to.
+2. **Cover Letter Crafting**: Generate a custom cover letter for each job application, ensuring it's tailored to both the job and the company.
+3. **Interview Question Generator**: Supply commonly asked interview questions, helping you prepare for various interviewing scenarios.
+4. **Interview Response Enhancement**: Coach you on improving your answers to interview questions, ensuring they are engaging and relevant.
+
+Rationale Behind These Goals:
+1. **Resume Review**: A standout resume is your first step towards securing an interview. Our review process helps you customize your resume for specific jobs and companies, increasing the alignment of your qualifications.
+2. **Cover Letter Crafting**: Crafting individual cover letters for each application is time-consuming. Recruiters often prefer applications that include a cover letter. Our tool helps you create specific, personalized cover letters efficiently, saving you from repeatedly editing the same template.
+3. **Interview Question Generator**: Interviews often feature similar questions framed in the context of the company. Our generator provides a range of questions, including direct, behavioral, and technical, to help you anticipate and prepare for what you might be asked.
+4. **Interview Response Enhancement**: Crafting responses to interview questions requires effort, from selecting appropriate examples to structuring your story in an engaging manner. Despite thorough preparation, it's challenging to gauge the effectiveness of your answers. Our tool offers insights on enhancing your responses and provides examples of improved answers based on your initial attempts.
+ 
+In conclusion, our Personal Career Coach is more than a mere tool; it is a pathway to empowering individuals with the confidence and preparedness necessary to excel in their interviews.
 
 # Quick navigation
 [Goal](#goal)  
