@@ -1,8 +1,12 @@
 # Mock Interview Capstone Project Repository
+[Hugging Face Space-MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
+[Overview Video](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/c96fdb11-1b9c-46db-9713-735a346069bd)  
 
-I aim to develop a mock interview web application that DSI students can use to enhance their interview skills based on their resumes. Users can upload their resumes, prompting the chatbot to generate questions related to the information contained therein. The chatbot, utilizing natural language processing techniques, will produce bespoke interview questions and responses aligned with the user's resume and background. I plan to refine a pre-trained conversational AI model like GPT-3 using a dataset of interview questions, enabling it to naturally address common behavioral and technical inquiries in the data science domain. The project timeline is divided into four phases: curriculum study and data collection/processing, model development, model enhancement based on feedback from career coaches, and interface creation and refinement.
+{TEXT OVERVIEW HERE}
+
 
 # Quick navigation
+[Goal](#goal)
 [Background](#background)  
 [Data](#data)  
 [Models](#models) 
@@ -27,15 +31,14 @@ d.	This application can also help CMC’s career coaches to better help those st
 
 # Background  
 
-As the project moves along, the readme will be updated with this info.
+{STRUGGLES DURING JOB HUNTING}
 
 # Data
 
-As the project moves along, the readme will be updated with this info.
+{WHY WE DO NOT HAVE/NEED DATA}
 
-## Data security
-
-As the project moves along, the readme will be updated with this info.
+## Data security  
+***Disclaimer**: This platform uses Artificial Intelligence (AI). Please do not share private or sensitive information during interactions, as AI cannot ensure confidentiality. Exercise discretion for your security.
 
 # Models
 
@@ -43,14 +46,11 @@ As the project moves along, the readme will be updated with this info. (Identify
 
 # Project logistics
 
-**Sprint planning**: 
+**Sprint planning**: 10:00 AM Fridays at the Data Science Institute, 2001 Grand Avenue (2nd Floor), Nashville, TN 37212
 
-**Demo**: 10:00 AM Fridays at the Data Science Institute, 2001 Grand Avenue (2nd Floor), Nashville, TN 37212
+# References
 
-**Data location**:  
-
-**Slack channel**:  
-
+{CITE PAPERS THAT I USED HERE}
 
 # Resources 
 **Main Resources**:  
@@ -68,10 +68,9 @@ As the project moves along, the readme will be updated with this info. (Identify
 * **ACCRE how-to guides**: [DSI How-tos](https://github.com/vanderbilt-data-science/how-tos)  
 
 # Contact Info
-[This part will be keep updated along the development of this project.]  
-Project Supervisor: Dr. Jesse Spencer-Smith  
-DSI Faculty: Dr. Jesse Blocher  
-CMC Faculty: Brook Meissner  
+Project Supervisor: Dr. Jesse Spencer-Smith, jesse.spencer-smith@vanderbilt.edu  
+DSI Faculty: Dr. Jesse Blocher, jesse.blocher@vanderbilt.edu  
+CMC Faculty: Brook Meissner, brook.meissner@vanderbilt.edu  
 
 Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 
@@ -84,7 +83,8 @@ Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 * Meet with Brook (giving update, getting feedback, discussing future plan) (Issue #53) (11.20, 2h)
 * Create gradio draft to combine resume_review + cover_letter + interview_question_answer (Issue #62) (11.20, 4h)
 * Meet with Dr. Blocher (giving update, getting feedback, discussing future plan) (11.21, 2h)
-* Total work time: about 8h
+* Improve the gradio by Dr. Blocher's feedback (11.22-11.23, 1.5h)
+* Total work time: about 9.5h
 
 [Nov.13.2023 - Nov.19.2023]: [This week To-Do]
 * 1 prompt for generate different types of interview question by the request (11.19, 5h)
