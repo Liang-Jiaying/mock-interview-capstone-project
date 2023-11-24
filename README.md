@@ -1,19 +1,22 @@
 # Mock Interview Capstone Project Repository
-[Hugging Face Space-MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
-[Overview Video](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/c96fdb11-1b9c-46db-9713-735a346069bd)  
+[Hugging Face Space: MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
+[Video Recording: Overview](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/c96fdb11-1b9c-46db-9713-735a346069bd)  
 
 {TEXT OVERVIEW HERE}
 
 
 # Quick navigation
 [Goal](#goal)
-[Background](#background)  
-[Data](#data)  
-[Models](#models) 
-[Logistics](#project-logistics)  
-[Resources](#resources)  
-[Contact](#contact-info)  
-[Timeline](#timeline) 
+[Background](#background)   
+[Data](#data)   
+[Models](#models)  
+[Demo](#demo)  
+[Critical Analysis](#critical-analysis)
+[Logistics](#project-logistics)   
+[References](#references)  
+[Resources](#resources)    
+[Contact](#contact-info)    
+[Timeline](#timeline)   
 
 # Goal
 **The application aims to resolve the following issues**:   
@@ -31,7 +34,7 @@ d.	This application can also help CMC’s career coaches to better help those st
 
 # Background  
 
-{STRUGGLES DURING JOB HUNTING}
+{STRUGGLES DURING JOB HUNTING, HOW I START THIS PROJECT}
 
 # Data
 
@@ -42,15 +45,30 @@ d.	This application can also help CMC’s career coaches to better help those st
 
 # Models
 
-As the project moves along, the readme will be updated with this info. (Identify each of the response variables of interest. Any additional desired analysis should also be described here.)
+{WHAT MODEL WE USED, WHY WE DO NOT NEED TO TRAIN A MODEL AS WE PLANED AT THE BEGINING}
+
+# Demo
+## Code Demo
+{A SUMMARY OF STEPS FOR NOTEBOOKS, STEPS OF HOW I GREATE PROMPT, TEST, ...}
+
+## Gradio Demo
+[HuggingFace Space: jiaying2022/MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
+
+<img width="1427" alt="Screenshot 2023-11-24 at 7 24 41 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/ff3f2427-b8ef-487e-ab05-f3c4cc3215d3">
+
+
+# Critical Analysis
+
+{CRITICAL ANALYSIS GOES HERE}
 
 # Project logistics
-
-**Sprint planning**: 10:00 AM Fridays at the Data Science Institute, 2001 Grand Avenue (2nd Floor), Nashville, TN 37212
+**Project planning**: By appointment with three faculties in the contact.  
+**Sprint planning**: 10:00 AM Fridays at the Data Science Institute, 2001 Grand Avenue (2nd Floor), Nashville, TN 37212  
 
 # References
+1. Lee, H., Phatale, S., Mansoor, H., Lu, K., Mesnard, T., Bishop, C., ... & Rastogi, A. (2023). Rlaif: Scaling reinforcement learning from human feedback with ai feedback. arXiv preprint arXiv:2309.00267.
 
-{CITE PAPERS THAT I USED HERE}
+2. Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., ... & Lowe, R. (2022). Training language models to follow instructions with human feedback. Advances in Neural Information Processing Systems, 35, 27730-27744.
 
 # Resources 
 **Main Resources**:  
@@ -84,7 +102,8 @@ Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 * Create gradio draft to combine resume_review + cover_letter + interview_question_answer (Issue #62) (11.20, 4h)
 * Meet with Dr. Blocher (giving update, getting feedback, discussing future plan) (11.21, 2h)
 * Improve the gradio by Dr. Blocher's feedback (11.22-11.23, 1.5h)
-* Total work time: about 9.5h
+* Presentaion Preparation (11.24, 3h)
+* Total work time: about 12.5h
 
 [Nov.13.2023 - Nov.19.2023]: [This week To-Do]
 * 1 prompt for generate different types of interview question by the request (11.19, 5h)
