@@ -6,14 +6,14 @@
 
 
 # Quick navigation
-[Goal](#goal)
-[Background](#background)   
-[Data](#data)   
-[Models](#models)  
-[Demo](#demo)  
-[Critical Analysis](#critical-analysis)
-[Logistics](#project-logistics)   
-[References](#references)  
+[Goal](#goal)  
+[Background](#background)    
+[Data](#data)     
+[Models](#models)    
+[Demo](#demo)    
+[Critical Analysis](#critical-analysis)  
+[Logistics](#project-logistics)     
+[References](#references)    
 [Resources](#resources)    
 [Contact](#contact-info)    
 [Timeline](#timeline)   
