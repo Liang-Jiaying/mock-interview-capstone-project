@@ -71,11 +71,16 @@ d.	This application can also help CMC’s career coaches to better help those st
 2. Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., ... & Lowe, R. (2022). Training language models to follow instructions with human feedback. Advances in Neural Information Processing Systems, 35, 27730-27744.
 
 # Resources 
+**Tutorials**:  
+* **2023 AI Summer**: [Recording](https://www.youtube.com/watch?v=AXRDiHQMmBo&list=PL6KxUvysa-7yV8T4qcoLaDH3ZzUFwYx8u)
+* **Prompt Engineering for ChatGPT**: [Coursera](https://www.coursera.org/programs/coursera-for-vanderbilt-0fcd8/learn/prompt-engineering?authProvider=vanderbilt)  
+
 **Main Resources**:  
 * **OpenAI API setup**: OpenAI API [Documentation](https://platform.openai.com/docs/api-reference)
 * **Google Colab notebook**: [Website](https://colab.google/)
 * **HuggingFace**: [Website](https://huggingface.co/transformers/index.html), [Course/Training](https://huggingface.co/course/chapter1), [Inference using pipelines](https://huggingface.co/transformers/task_summary.html), [Fine tuning models](https://huggingface.co/transformers/training.html)
 * **LangChain**: [Get started](https://python.langchain.com/docs/get_started), [Documentation](https://docs.langchain.com/docs/)
+* **Gradio**: [Quickstart](https://www.gradio.app/guides/quickstart)
 
 **Minor Resources**:
 * **Python usage**: Whirlwind Tour of Python, Jake VanderPlas ([Book](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/), [Notebooks](https://github.com/jakevdp/WhirlwindTourOfPython))
