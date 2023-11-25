@@ -67,7 +67,9 @@ In the development of our project, we exclusively utilized GPT-4, accessed via t
 
 # Demo
 ## Code Demo
-{A SUMMARY OF STEPS FOR NOTEBOOKS, STEPS OF HOW I GREATE PROMPT, TEST, ...}
+[Google Colab Notebook: Example Notebook](https://colab.research.google.com/drive/1JEvxRR8YF1UcsJkYZdgVZ9pyfa2JA9Pl?usp=sharing)
+<img width="1435" alt="Screenshot 2023-11-25 at 5 22 55 PM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/e9e2dde9-66b8-40c6-834c-81f9becdc244">  
+<img width="1436" alt="Screenshot 2023-11-25 at 5 28 13 PM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/23e030ae-eb90-4f02-8add-2cfae5af2999">
 
 ## Gradio Demo
 [HuggingFace Space: jiaying2022/MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
