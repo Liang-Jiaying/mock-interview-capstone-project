@@ -48,7 +48,11 @@ d.	This application can also help CMC’s career coaches to better help those st
 
 # Background  
 
-{STRUGGLES DURING JOB HUNTING, HOW I START THIS PROJECT}
+Through daily observations and conversations with my peers, I've witnessed the widespread challenges of job hunting, particularly among non-native speakers. As someone who empathizes with these struggles, the importance of early and effective preparation became clear to me. This sentiment was reinforced at the start of the semester when Dr. Spencer-Smith introduced this project. I was immediately drawn to the idea of developing a tool that could not only assist my cohorts in the Data Science Institute but also potentially benefit students across Vanderbilt University.
+
+While there are numerous online applications like [Leetcode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/), [Jobscan](https://www.jobscan.co/), [Pramp](https://www.pramp.com/#/), [rocketblocks](https://www.rocketblocks.me/), and so on, focusing on enhancing interview skills, none provide an all-encompassing solution for the entire job application process. Our Personal Career Coach application fills this gap. It guides users from the outset of their job search, helping to tailor resumes and cover letters for specific roles and companies, thereby increasing their chances of securing interviews. Post-interview preparation is also covered, with tailored questions and practice sessions to boost confidence and readiness.
+
+The overarching aim of this application is to alleviate the stress associated with job hunting while balancing academic responsibilities. To extend its reach, I decided on a web-based platform, allowing easy access and user-friendly interaction. My experience in the 2023 AI Summer program, particularly with Gradio and Hugging Face Space, inspired me to utilize these platforms for hosting the initial version of the application, facilitating self-exploration and wider accessibility.
 
 # Data
 
