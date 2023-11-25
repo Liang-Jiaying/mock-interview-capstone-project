@@ -63,7 +63,7 @@ In the initial planning stages of our project, we considered creating a data sto
 
 # Models
 
-{WHAT MODEL WE USED, WHY WE DO NOT NEED TO TRAIN A MODEL AS WE PLANED AT THE BEGINING}
+In the development of our project, we exclusively utilized GPT-4, accessed via the OpenAI API. Initially, our plan involved fine-tune a pre-trained model tailored for interview preparation. However, upon exploring GPT-4's capabilities, we quickly realized that it not only met but exceeded our expectations in performance and functionality. GPT-4's advanced features and adaptability rendered the need to train a separate model unnecessary for our current objectives. Looking ahead, should the need arise for more specialized functions within our app, we may revisit the idea of training a dedicated model to meet those specific requirements.
 
 # Demo
 ## Code Demo
