@@ -56,7 +56,7 @@ The overarching aim of this application is to alleviate the stress associated wi
 
 # Data
 
-{WHY WE DO NOT HAVE/NEED DATA}
+In the initial planning stages of our project, we considered creating a data store to house commonly asked interview questions. However, as we delved deeper into the project, it became evident that GPT-4's capabilities were sufficient to generate high-quality content without the need for additional data. The cornerstone of our project's success lies in effective prompt engineering. To facilitate this, we have organized and stored these carefully crafted prompts as text files in a designated data folder. This approach allows us to harness the full potential of GPT-4 while maintaining a streamlined and efficient data structure.
 
 ## Data security  
 ***Disclaimer**: This platform uses Artificial Intelligence (AI). Please do not share private or sensitive information during interactions, as AI cannot ensure confidentiality. Exercise discretion for your security.
