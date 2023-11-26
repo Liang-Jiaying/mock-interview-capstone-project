@@ -149,7 +149,7 @@ Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 * Presentation Practice (11.26, 2h)
 * Total work time: about 14.5h
 
-[Nov.13.2023 - Nov.19.2023]: [This week To-Do]
+[Nov.13.2023 - Nov.19.2023]: 
 * 1 prompt for generate different types of interview question by the request (11.19, 5h)
 * Answer evaluation prompt (Issue #45) (11.13-11.17, 5h)
 * Cover letter prompt (Issue #46) (11.18-11.19, 3h)
