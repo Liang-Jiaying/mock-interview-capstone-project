@@ -76,10 +76,28 @@ In the development of our project, we exclusively utilized GPT-4, accessed via t
 
 <img width="1427" alt="Screenshot 2023-11-24 at 7 24 41 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/ff3f2427-b8ef-487e-ab05-f3c4cc3215d3">
 
-
 # Critical Analysis
 
-{CRITICAL ANALYSIS GOES HERE}
+My evaluation will focus not only on the app’s innovative approach to resume and cover letter creation, but also on its user experience, technical performance, and the real-world impact it holds. In an era where the job market is increasingly competitive and digital tools are pivotal, understanding the efficacy and limitations of such applications is crucial. This analysis aims to provide an in-depth look at the Personal Career Coach App, assessing its strengths, areas for improvement, and its potential to reshape the landscape of job hunting. There are six points:
+
+1. **Evolving Technical Landscape and App Viability**  
+In evaluating the Personal Career Coach App, it’s apparent that the rapid evolution in AI technology presents both opportunities and challenges. While our application leverages the latest in ChatGPT advancements, we recognize the potential for newer technologies to supersede current functionalities. This necessitates a continual adaptation strategy.
+
+2. **Innovation and User Experience Comparison**  
+Comparing our app with existing market solutions, its innovative bridging of all job-hunting stages stands out. However, there’s a notable gap in user-friendliness and visual design, areas where competitors excel and we aim to improve.
+
+3. **User-Friendly AI Interaction and Practical Impact**  
+Despite a basic interface, the app significantly demystifies LLMs for users, providing easy access to complex AI benefits. This practicality underscores its impact in simplifying interview preparations for non-tech-savvy users.
+
+4. **Ethical Considerations in AI Application**  
+Ethically, the app currently operates privately, ensuring user data confidentiality. As we transition to a public platform, anonymized data collection will be crucial. We acknowledge the concerns around AI data usage and assure users of similar privacy standards as upheld by OpenAI’s API.
+
+5. **Future Enhancements and User Engagement**  
+For the future, we envision enhancing the app with more intuitive user guidance, such as error prompts for incomplete inputs, and a more engaging website design. These improvements aim to elevate user experience and engagement.
+
+6. **Addressing Limitations and Future Development**  
+Limitations stem primarily from my current web development expertise and project time constraints. Addressing these limitations forms a crucial part of our roadmap, promising a more refined and user-friendly application in subsequent iterations.
+
 
 # Project logistics
 **Project planning**: By appointment with three faculties in the contact.  
@@ -126,9 +144,10 @@ Project Manager & Code Contributors: Jiaying Liang, jiaying.liang@vanderbilt.edu
 * Meet with Brook (giving update, getting feedback, discussing future plan) (Issue #53) (11.20, 2h)
 * Create gradio draft to combine resume_review + cover_letter + interview_question_answer (Issue #62) (11.20, 4h)
 * Meet with Dr. Blocher (giving update, getting feedback, discussing future plan) (11.21, 2h)
-* Improve the gradio by Dr. Blocher's feedback (11.22-11.23, 1.5h)
-* Presentaion Preparation (11.24, 3h)
-* Total work time: about 12.5h
+* Improve the gradio by Dr. Blocher's feedback (Issue #65-69) (11.22-11.23, 1.5h)
+* Presentation Preparation (Issue #75) (11.24-11.26, 3h)
+* Presentation Practice (11.26, 2h)
+* Total work time: about 14.5h
 
 [Nov.13.2023 - Nov.19.2023]: [This week To-Do]
 * 1 prompt for generate different types of interview question by the request (11.19, 5h)
