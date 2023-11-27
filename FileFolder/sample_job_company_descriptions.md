@@ -3,8 +3,8 @@ Note: Those information are from LinkedIn. I will provide the job link but those
 
 # Content:  
 [1. Data Scientist - Johnson & Johnson](#1-data-scientist---johnson--johnson)  
-[2. Data Scientist - TikTok Ads](#2-data-scientist-tiktok-ads-tiktok)  
-[3. Data Scientist - QinetiQ US](#3-data-scientist-qinetiq-us)  
+[2. Data Scientist - TikTok Ads](#2-data-scientist---tiktob-ads)  
+[3. Data Scientist - QinetiQ US](#3-data-scientist---qinetiq-us)  
 
 
 # 1. Data Scientist - Johnson & Johnson  
