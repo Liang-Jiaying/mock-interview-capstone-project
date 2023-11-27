@@ -1,0 +1,1167 @@
+model,question_answer_combination,variable_combination,template,output
+gpt_4,1,1,"
+You are an expert evaluator of interview responses. Given an interview questions: {interview_questions}
+ and a corresponding answer: {question_answers}, your job is to evaluate each answer based 
+ on the following seven key aspects: relevance to question, technical skills, 
+ problem-solving abilities, communication skills, cultural fit, adaptability, 
+ teamwork and collaboration, and leadership qualities (if applicable).
+
+Relevance to Question: ""Does the answer directly address the question asked?""
+High Relevance: The answer directly and comprehensively addresses the question.
+Low Relevance: The answer is off-topic, vague, or fails to address the question.
+
+Technical Skills: This is about understanding the candidate's ability to perform
+ the specific tasks required for the job: {role_title} and job description: {role_description}. For roles that require specific 
+ technical knowledge or skills, it's crucial to assess the candidate's proficiency.
+ ""Does the answer demonstrate the necessary technical skills or knowledge for the job?""
+High Competency: The answer shows in-depth understanding and expertise.
+Low Competency: The answer reveals a lack of necessary technical knowledge.
+
+Problem-Solving Abilities: This evaluates how the candidate approaches and solves
+ problems. It's important because it shows how they will handle real-world 
+ challenges in the job. ""Does the answer exhibit the candidate's ability to solve 
+ problems?""
+Strong Problem-Solving: The answer showcases effective and creative problem-solving strategies.
+Weak Problem-Solving: The answer lacks evidence of problem-solving abilities.
+
+Communication Skills: Good communication is key in almost every job. This aspect
+ assesses how well the candidate can express their ideas and understand others. 
+ ""How well does the candidate articulate their thoughts?""
+Strong Communication: The answer is clear, concise, and well-structured.
+Poor Communication: The answer is confusing, overly verbose, or poorly structured.
+
+Cultural Fit: This is about assessing whether the candidate's values, behavior, 
+and personality align with the {company_name}'s company culture. Here is the company 
+description you can reference ""{company_description}"". 
+It's important for ensuring a harmonious work environment. ""Does the answer align 
+with the {company_name}'s company values and culture?""
+Good Fit: The answer reflects alignment with the company's values and culture.
+Poor Fit: The answer indicates potential conflicts with the company's culture.
+
+Adaptability: The ability to adapt to changing environments and demands is crucial
+ in today’s fast-paced work settings. This shows how well the candidate can 
+ handle change and uncertainty. ""Does the answer demonstrate the candidate's 
+ ability to adapt to changes?""
+High Adaptability: The answer shows flexibility and a positive approach to change.
+Low Adaptability: The answer suggests rigidity or discomfort with change.
+
+Teamwork and Collaboration: This assesses the candidate’s ability to work 
+effectively with others. Teamwork is essential for most jobs, and good collaboration
+ skills can significantly enhance work efficiency.
+Leadership Qualities (if applicable): For roles that require leadership, it’s 
+important to evaluate the candidate’s ability to lead, motivate, and guide others.
+""Does the answer reflect the candidate's ability to work in a team or lead effectively?""
+Strong Teamwork/Leadership: The answer highlights effective collaboration or leadership qualities.
+Weak Teamwork/Leadership: The answer shows a lack of teamwork skills or ineffective leadership.
+
+
+For each interview question and answer provide at the beginning, rate the response based on the above aspects.
+Provide a score and feedback for each aspect in 10/10 scale.
+Offer an overall evaluation of the answer's strengths and areas for improvement.
+","Relevance to Question: 
+Score: 10/10 
+Feedback: The candidate clearly describes a challenging project that they worked on, outlining their role and the strategies they used to handle the situation.
+
+Technical Skills: 
+Score: 7/10 
+Feedback: The candidate shows good project management skills, but specific technical skills related to AI/ML software development were not clearly mentioned.
+
+Problem-Solving Abilities: 
+Score: 9/10 
+Feedback: The candidate demonstrates strong problem-solving abilities by organizing extra brainstorming sessions, delegating tasks, and maintaining open communication with stakeholders to meet the project deadline.
+
+Communication Skills: 
+Score: 10/10 
+Feedback: The candidate effectively communicates their thoughts, outlining the problem and their strategies in a clear, concise manner.
+
+Cultural Fit: 
+Score: 8/10 
+Feedback: The candidate shows good project management skills and a strong ability to handle pressure, which aligns with S&P Global's fast-paced and data-driven culture. However, more explicit alignment with the company's values could have been demonstrated.
+
+Adaptability: 
+Score: 10/10 
+Feedback: The candidate shows high adaptability by successfully handling unexpected technical hurdles and a tight deadline.
+
+Teamwork and Collaboration: 
+Score: 10/10
+Feedback: The candidate exhibits strong teamwork and collaboration skills by effectively leading a team and delegating tasks according to individual strengths.
+
+Leadership Qualities:
+Score: 10/10
+Feedback: The candidate clearly demonstrates leadership qualities by leading the project, handling challenges, and effectively communicating with stakeholders to deliver the project on time.
+
+Overall Evaluation: The candidate provided a strong response, demonstrating good problem-solving, communication, adaptability, teamwork, and leadership skills. Their technical skills were somewhat unclear from the response, and more explicit alignment with S&P Global's company culture could have been shown. However, they demonstrated a strong ability to handle challenging projects, which is highly relevant to the role."
+gpt_4,2,1,"
+You are an expert evaluator of interview responses. Given an interview questions: {interview_questions}
+ and a corresponding answer: {question_answers}, your job is to evaluate each answer based 
+ on the following seven key aspects: relevance to question, technical skills, 
+ problem-solving abilities, communication skills, cultural fit, adaptability, 
+ teamwork and collaboration, and leadership qualities (if applicable).
+
+Relevance to Question: ""Does the answer directly address the question asked?""
+High Relevance: The answer directly and comprehensively addresses the question.
+Low Relevance: The answer is off-topic, vague, or fails to address the question.
+
+Technical Skills: This is about understanding the candidate's ability to perform
+ the specific tasks required for the job: {role_title} and job description: {role_description}. For roles that require specific 
+ technical knowledge or skills, it's crucial to assess the candidate's proficiency.
+ ""Does the answer demonstrate the necessary technical skills or knowledge for the job?""
+High Competency: The answer shows in-depth understanding and expertise.
+Low Competency: The answer reveals a lack of necessary technical knowledge.
+
+Problem-Solving Abilities: This evaluates how the candidate approaches and solves
+ problems. It's important because it shows how they will handle real-world 
+ challenges in the job. ""Does the answer exhibit the candidate's ability to solve 
+ problems?""
+Strong Problem-Solving: The answer showcases effective and creative problem-solving strategies.
+Weak Problem-Solving: The answer lacks evidence of problem-solving abilities.
+
+Communication Skills: Good communication is key in almost every job. This aspect
+ assesses how well the candidate can express their ideas and understand others. 
+ ""How well does the candidate articulate their thoughts?""
+Strong Communication: The answer is clear, concise, and well-structured.
+Poor Communication: The answer is confusing, overly verbose, or poorly structured.
+
+Cultural Fit: This is about assessing whether the candidate's values, behavior, 
+and personality align with the {company_name}'s company culture. Here is the company 
+description you can reference ""{company_description}"". 
+It's important for ensuring a harmonious work environment. ""Does the answer align 
+with the {company_name}'s company values and culture?""
+Good Fit: The answer reflects alignment with the company's values and culture.
+Poor Fit: The answer indicates potential conflicts with the company's culture.
+
+Adaptability: The ability to adapt to changing environments and demands is crucial
+ in today’s fast-paced work settings. This shows how well the candidate can 
+ handle change and uncertainty. ""Does the answer demonstrate the candidate's 
+ ability to adapt to changes?""
+High Adaptability: The answer shows flexibility and a positive approach to change.
+Low Adaptability: The answer suggests rigidity or discomfort with change.
+
+Teamwork and Collaboration: This assesses the candidate’s ability to work 
+effectively with others. Teamwork is essential for most jobs, and good collaboration
+ skills can significantly enhance work efficiency.
+Leadership Qualities (if applicable): For roles that require leadership, it’s 
+important to evaluate the candidate’s ability to lead, motivate, and guide others.
+""Does the answer reflect the candidate's ability to work in a team or lead effectively?""
+Strong Teamwork/Leadership: The answer highlights effective collaboration or leadership qualities.
+Weak Teamwork/Leadership: The answer shows a lack of teamwork skills or ineffective leadership.
+
+
+For each interview question and answer provide at the beginning, rate the response based on the above aspects.
+Provide a score and feedback for each aspect in 10/10 scale.
+Offer an overall evaluation of the answer's strengths and areas for improvement.
+","Relevance to Question: 10/10
+The candidate's response directly addresses the question, clearly detailing a challenging project they worked on and their role in it.
+
+Technical Skills: 3/10
+The candidate discusses their role in a marketing campaign, but does not mention any technical skills related to software development, AI/ML, or the other technical requirements listed in the job description. 
+
+Problem-Solving Abilities: 8/10
+The candidate shows good problem-solving abilities. They faced a challenge due to budget cuts and found a creative solution by leveraging free online tools and optimizing existing content.
+
+Communication Skills: 8/10
+The candidate communicates their ideas clearly and concisely, explaining the challenge they faced and how they handled it.
+
+Cultural Fit: 7/10
+The candidate shows a commitment to achieving targets even in challenging circumstances, which aligns with S&P Global's focus on providing essential intelligence and helping clients make informed decisions. However, the response doesn't fully reflect the company's culture as it doesn't mention any specifics about the company or its values.
+
+Adaptability: 8/10
+The candidate demonstrated adaptability by creatively finding solutions during budget cuts. This shows they can adapt to changing environments and demands.
+
+Teamwork and Collaboration: 7/10
+The candidate mentions that they were part of a team but does not provide specific examples of collaboration or teamwork.
+
+Leadership Qualities: N/A
+The candidate doesn't mention any leadership roles or responsibilities in their response.
+
+Overall Evaluation:
+Strengths - The candidate's answer is relevant and shows good problem-solving abilities, communication skills, and adaptability.
+Areas for Improvement - The candidate needs to provide more evidence of technical skills related to the job description. They should also provide specific examples of teamwork and explain how their values align with S&P Global's culture."
+gpt_4,3,1,"
+You are an expert evaluator of interview responses. Given an interview questions: {interview_questions}
+ and a corresponding answer: {question_answers}, your job is to evaluate each answer based 
+ on the following seven key aspects: relevance to question, technical skills, 
+ problem-solving abilities, communication skills, cultural fit, adaptability, 
+ teamwork and collaboration, and leadership qualities (if applicable).
+
+Relevance to Question: ""Does the answer directly address the question asked?""
+High Relevance: The answer directly and comprehensively addresses the question.
+Low Relevance: The answer is off-topic, vague, or fails to address the question.
+
+Technical Skills: This is about understanding the candidate's ability to perform
+ the specific tasks required for the job: {role_title} and job description: {role_description}. For roles that require specific 
+ technical knowledge or skills, it's crucial to assess the candidate's proficiency.
+ ""Does the answer demonstrate the necessary technical skills or knowledge for the job?""
+High Competency: The answer shows in-depth understanding and expertise.
+Low Competency: The answer reveals a lack of necessary technical knowledge.
+
+Problem-Solving Abilities: This evaluates how the candidate approaches and solves
+ problems. It's important because it shows how they will handle real-world 
+ challenges in the job. ""Does the answer exhibit the candidate's ability to solve 
+ problems?""
+Strong Problem-Solving: The answer showcases effective and creative problem-solving strategies.
+Weak Problem-Solving: The answer lacks evidence of problem-solving abilities.
+
+Communication Skills: Good communication is key in almost every job. This aspect
+ assesses how well the candidate can express their ideas and understand others. 
+ ""How well does the candidate articulate their thoughts?""
+Strong Communication: The answer is clear, concise, and well-structured.
+Poor Communication: The answer is confusing, overly verbose, or poorly structured.
+
+Cultural Fit: This is about assessing whether the candidate's values, behavior, 
+and personality align with the {company_name}'s company culture. Here is the company 
+description you can reference ""{company_description}"". 
+It's important for ensuring a harmonious work environment. ""Does the answer align 
+with the {company_name}'s company values and culture?""
+Good Fit: The answer reflects alignment with the company's values and culture.
+Poor Fit: The answer indicates potential conflicts with the company's culture.
+
+Adaptability: The ability to adapt to changing environments and demands is crucial
+ in today’s fast-paced work settings. This shows how well the candidate can 
+ handle change and uncertainty. ""Does the answer demonstrate the candidate's 
+ ability to adapt to changes?""
+High Adaptability: The answer shows flexibility and a positive approach to change.
+Low Adaptability: The answer suggests rigidity or discomfort with change.
+
+Teamwork and Collaboration: This assesses the candidate’s ability to work 
+effectively with others. Teamwork is essential for most jobs, and good collaboration
+ skills can significantly enhance work efficiency.
+Leadership Qualities (if applicable): For roles that require leadership, it’s 
+important to evaluate the candidate’s ability to lead, motivate, and guide others.
+""Does the answer reflect the candidate's ability to work in a team or lead effectively?""
+Strong Teamwork/Leadership: The answer highlights effective collaboration or leadership qualities.
+Weak Teamwork/Leadership: The answer shows a lack of teamwork skills or ineffective leadership.
+
+
+For each interview question and answer provide at the beginning, rate the response based on the above aspects.
+Provide a score and feedback for each aspect in 10/10 scale.
+Offer an overall evaluation of the answer's strengths and areas for improvement.
+","Relevance to Question: 9/10
+The candidate directly addresses the question by describing a specific project they worked on and their role in it. However, they could have expanded more on the challenges they faced.
+
+Technical Skills: 5/10
+The candidate mentions working on a data migration project, which shows some technical competency. However, they do not mention any specific technical skills or tools used, such as AI or ML as required in the job description.
+
+Problem-Solving Abilities: 5/10
+The candidate doesn't clearly specify any problems they encountered or how they solved them. They only mention wishing they had a more active role, which doesn't provide insight into their problem-solving abilities.
+
+Communication Skills: 8/10
+The candidate communicates their thoughts in a clear and concise manner. However, they could have expanded more on their experience and the challenges they faced.
+
+Cultural Fit: 6/10
+The candidate demonstrates a willingness to learn and receive feedback, aligning with S&P Global's culture of continuous growth and innovation. However, they do not mention any specific values or aspects of the company culture.
+
+Adaptability: 6/10
+The candidate shows some adaptability by working in a supporting role and desiring more involvement. However, they do not provide specific examples of adapting to change or unforeseen challenges.
+
+Teamwork and Collaboration: 7/10
+The candidate demonstrates good teamwork skills by working with senior analysts and seeking feedback. However, they do not mention any specific collaboration efforts or outcomes.
+
+Leadership Qualities: N/A
+The question does not ask about and the candidate does not mention any leadership experiences.
+
+Overall, the candidate's answer shows potential but lacks specific examples and details. They should try to provide more concrete instances of their technical skills, problem-solving abilities, adaptability, and teamwork. The answer could also benefit from explicit mentions of the company's values and culture to demonstrate a good fit."
+gpt_4,5,1,"
+You are an expert evaluator of interview responses. Given an interview questions: {interview_questions}
+ and a corresponding answer: {question_answers}, your job is to evaluate each answer based 
+ on the following seven key aspects: relevance to question, technical skills, 
+ problem-solving abilities, communication skills, cultural fit, adaptability, 
+ teamwork and collaboration, and leadership qualities (if applicable).
+
+Relevance to Question: ""Does the answer directly address the question asked?""
+High Relevance: The answer directly and comprehensively addresses the question.
+Low Relevance: The answer is off-topic, vague, or fails to address the question.
+
+Technical Skills: This is about understanding the candidate's ability to perform
+ the specific tasks required for the job: {role_title} and job description: {role_description}. For roles that require specific 
+ technical knowledge or skills, it's crucial to assess the candidate's proficiency.
+ ""Does the answer demonstrate the necessary technical skills or knowledge for the job?""
+High Competency: The answer shows in-depth understanding and expertise.
+Low Competency: The answer reveals a lack of necessary technical knowledge.
+
+Problem-Solving Abilities: This evaluates how the candidate approaches and solves
+ problems. It's important because it shows how they will handle real-world 
+ challenges in the job. ""Does the answer exhibit the candidate's ability to solve 
+ problems?""
+Strong Problem-Solving: The answer showcases effective and creative problem-solving strategies.
+Weak Problem-Solving: The answer lacks evidence of problem-solving abilities.
+
+Communication Skills: Good communication is key in almost every job. This aspect
+ assesses how well the candidate can express their ideas and understand others. 
+ ""How well does the candidate articulate their thoughts?""
+Strong Communication: The answer is clear, concise, and well-structured.
+Poor Communication: The answer is confusing, overly verbose, or poorly structured.
+
+Cultural Fit: This is about assessing whether the candidate's values, behavior, 
+and personality align with the {company_name}'s company culture. Here is the company 
+description you can reference ""{company_description}"". 
+It's important for ensuring a harmonious work environment. ""Does the answer align 
+with the {company_name}'s company values and culture?""
+Good Fit: The answer reflects alignment with the company's values and culture.
+Poor Fit: The answer indicates potential conflicts with the company's culture.
+
+Adaptability: The ability to adapt to changing environments and demands is crucial
+ in today’s fast-paced work settings. This shows how well the candidate can 
+ handle change and uncertainty. ""Does the answer demonstrate the candidate's 
+ ability to adapt to changes?""
+High Adaptability: The answer shows flexibility and a positive approach to change.
+Low Adaptability: The answer suggests rigidity or discomfort with change.
+
+Teamwork and Collaboration: This assesses the candidate’s ability to work 
+effectively with others. Teamwork is essential for most jobs, and good collaboration
+ skills can significantly enhance work efficiency.
+Leadership Qualities (if applicable): For roles that require leadership, it’s 
+important to evaluate the candidate’s ability to lead, motivate, and guide others.
+""Does the answer reflect the candidate's ability to work in a team or lead effectively?""
+Strong Teamwork/Leadership: The answer highlights effective collaboration or leadership qualities.
+Weak Teamwork/Leadership: The answer shows a lack of teamwork skills or ineffective leadership.
+
+
+For each interview question and answer provide at the beginning, rate the response based on the above aspects.
+Provide a score and feedback for each aspect in 10/10 scale.
+Offer an overall evaluation of the answer's strengths and areas for improvement.
+","Relevance to Question: 7/10
+The candidate does speak about a challenging project, which is the main point of the question, but fails to go into any detail about their role or how they specifically handled it. 
+
+Technical Skills: 2/10 
+The candidate does not demonstrate any technical skills in their answer, which is a key requirement for the job role.
+
+Problem-Solving Abilities: 3/10 
+The candidate did not demonstrate problem-solving abilities. Instead of finding solutions to overcome the challenge, they kept to tasks they were comfortable with.
+
+Communication Skills: 7/10 
+The candidate communicates clearly and directly, but the answer lacks depth and details.
+
+Cultural Fit: 4/10
+The answer does not provide any indication of alignment or conflict with S&P Global's culture. More information would be required to make a proper assessment.
+
+Adaptability: 3/10 
+The candidate does not show adaptability in their response. They stayed within their comfort zone instead of adapting to the project's demands.
+
+Teamwork and Collaboration: 4/10 
+There's no direct reference to teamwork or collaboration in their response. The candidate seems to have worked in isolation.
+
+Leadership Qualities: 2/10 
+There's no evidence of leadership in the candidate's response. They did not take initiative or guide others in the challenging project.
+
+Overall Evaluation: The candidate's strengths lie in their ability to communicate clearly and directly. However, they did not provide enough detail about their role in the project, how they handled it, or how they used their technical skills. They also did not demonstrate problem-solving abilities, adaptability, teamwork, or leadership. In future, the candidate should provide more detail and specific examples that highlight these skills."
+gpt_4,12,1,"
+You are an expert evaluator of interview responses. Given an interview questions: {interview_questions}
+ and a corresponding answer: {question_answers}, your job is to evaluate each answer based 
+ on the following seven key aspects: relevance to question, technical skills, 
+ problem-solving abilities, communication skills, cultural fit, adaptability, 
+ teamwork and collaboration, and leadership qualities (if applicable).
+
+Relevance to Question: ""Does the answer directly address the question asked?""
+High Relevance: The answer directly and comprehensively addresses the question.
+Low Relevance: The answer is off-topic, vague, or fails to address the question.
+
+Technical Skills: This is about understanding the candidate's ability to perform
+ the specific tasks required for the job: {role_title} and job description: {role_description}. For roles that require specific 
+ technical knowledge or skills, it's crucial to assess the candidate's proficiency.
+ ""Does the answer demonstrate the necessary technical skills or knowledge for the job?""
+High Competency: The answer shows in-depth understanding and expertise.
+Low Competency: The answer reveals a lack of necessary technical knowledge.
+
+Problem-Solving Abilities: This evaluates how the candidate approaches and solves
+ problems. It's important because it shows how they will handle real-world 
+ challenges in the job. ""Does the answer exhibit the candidate's ability to solve 
+ problems?""
+Strong Problem-Solving: The answer showcases effective and creative problem-solving strategies.
+Weak Problem-Solving: The answer lacks evidence of problem-solving abilities.
+
+Communication Skills: Good communication is key in almost every job. This aspect
+ assesses how well the candidate can express their ideas and understand others. 
+ ""How well does the candidate articulate their thoughts?""
+Strong Communication: The answer is clear, concise, and well-structured.
+Poor Communication: The answer is confusing, overly verbose, or poorly structured.
+
+Cultural Fit: This is about assessing whether the candidate's values, behavior, 
+and personality align with the {company_name}'s company culture. Here is the company 
+description you can reference ""{company_description}"". 
+It's important for ensuring a harmonious work environment. ""Does the answer align 
+with the {company_name}'s company values and culture?""
+Good Fit: The answer reflects alignment with the company's values and culture.
+Poor Fit: The answer indicates potential conflicts with the company's culture.
+
+Adaptability: The ability to adapt to changing environments and demands is crucial
+ in today’s fast-paced work settings. This shows how well the candidate can 
+ handle change and uncertainty. ""Does the answer demonstrate the candidate's 
+ ability to adapt to changes?""
+High Adaptability: The answer shows flexibility and a positive approach to change.
+Low Adaptability: The answer suggests rigidity or discomfort with change.
+
+Teamwork and Collaboration: This assesses the candidate’s ability to work 
+effectively with others. Teamwork is essential for most jobs, and good collaboration
+ skills can significantly enhance work efficiency.
+Leadership Qualities (if applicable): For roles that require leadership, it’s 
+important to evaluate the candidate’s ability to lead, motivate, and guide others.
+""Does the answer reflect the candidate's ability to work in a team or lead effectively?""
+Strong Teamwork/Leadership: The answer highlights effective collaboration or leadership qualities.
+Weak Teamwork/Leadership: The answer shows a lack of teamwork skills or ineffective leadership.
+
+
+For each interview question and answer provide at the beginning, rate the response based on the above aspects.
+Provide a score and feedback for each aspect in 10/10 scale.
+Offer an overall evaluation of the answer's strengths and areas for improvement.
+","Relevance to Question: 8/10
+The candidate does address the question and provides insight into how they handle disagreements with colleagues. However, they could have elaborated more to make their answer more comprehensive.
+
+Technical Skills: N/A
+This question and the candidate's response doesn't pertain to the technical skills required for the job.
+
+Problem-Solving Abilities: 3/10
+The candidate's answer shows a tendency to avoid conflict rather than seeking to solve the disagreement through proactive measures such as open communication.
+
+Communication Skills: 8/10
+The candidate is able to express their thoughts clearly and concisely. However, the avoidance of voicing their opinions in conflicts could potentially lead to communication issues in the future.
+
+Cultural Fit: 5/10
+S&P Global values clarity, transparency, and intelligence, and the candidate's tendency to avoid conflict may not align well with these values. While their desire to maintain harmony is positive, their avoidance of expressing differing opinions could potentially hinder progress and innovation.
+
+Adaptability: 3/10
+The candidate's response suggests a reluctance to adapt in situations of disagreement, choosing instead to conform to others' opinions even if they believe it might not be the best approach.
+
+Teamwork and Collaboration: 4/10
+While the candidate's answer shows a willingness to maintain harmony in a team, the lack of assertiveness when disagreements arise could be detrimental to effective collaboration.
+
+Leadership Qualities: N/A
+This question and the candidate's response doesn't pertain to leadership qualities.
+
+Overall Evaluation:
+The candidate's response shows a clear and concise communication style, and it's relevant to the question asked. However, their approach to handling disagreements is more passive and avoidant, which could potentially hinder problem-solving, adaptability, and effective collaboration in a team. The candidate may want to consider developing strategies to voice their opinions constructively during conflicts while maintaining a harmonious work environment. This could illustrate their problem-solving abilities and adaptability more effectively."
+gpt_4,23,1,"
+You are an expert evaluator of interview responses. Given an interview questions: {interview_questions}
+ and a corresponding answer: {question_answers}, your job is to evaluate each answer based 
+ on the following seven key aspects: relevance to question, technical skills, 
+ problem-solving abilities, communication skills, cultural fit, adaptability, 
+ teamwork and collaboration, and leadership qualities (if applicable).
+
+Relevance to Question: ""Does the answer directly address the question asked?""
+High Relevance: The answer directly and comprehensively addresses the question.
+Low Relevance: The answer is off-topic, vague, or fails to address the question.
+
+Technical Skills: This is about understanding the candidate's ability to perform
+ the specific tasks required for the job: {role_title} and job description: {role_description}. For roles that require specific 
+ technical knowledge or skills, it's crucial to assess the candidate's proficiency.
+ ""Does the answer demonstrate the necessary technical skills or knowledge for the job?""
+High Competency: The answer shows in-depth understanding and expertise.
+Low Competency: The answer reveals a lack of necessary technical knowledge.
+
+Problem-Solving Abilities: This evaluates how the candidate approaches and solves
+ problems. It's important because it shows how they will handle real-world 
+ challenges in the job. ""Does the answer exhibit the candidate's ability to solve 
+ problems?""
+Strong Problem-Solving: The answer showcases effective and creative problem-solving strategies.
+Weak Problem-Solving: The answer lacks evidence of problem-solving abilities.
+
+Communication Skills: Good communication is key in almost every job. This aspect
+ assesses how well the candidate can express their ideas and understand others. 
+ ""How well does the candidate articulate their thoughts?""
+Strong Communication: The answer is clear, concise, and well-structured.
+Poor Communication: The answer is confusing, overly verbose, or poorly structured.
+
+Cultural Fit: This is about assessing whether the candidate's values, behavior, 
+and personality align with the {company_name}'s company culture. Here is the company 
+description you can reference ""{company_description}"". 
+It's important for ensuring a harmonious work environment. ""Does the answer align 
+with the {company_name}'s company values and culture?""
+Good Fit: The answer reflects alignment with the company's values and culture.
+Poor Fit: The answer indicates potential conflicts with the company's culture.
+
+Adaptability: The ability to adapt to changing environments and demands is crucial
+ in today’s fast-paced work settings. This shows how well the candidate can 
+ handle change and uncertainty. ""Does the answer demonstrate the candidate's 
+ ability to adapt to changes?""
+High Adaptability: The answer shows flexibility and a positive approach to change.
+Low Adaptability: The answer suggests rigidity or discomfort with change.
+
+Teamwork and Collaboration: This assesses the candidate’s ability to work 
+effectively with others. Teamwork is essential for most jobs, and good collaboration
+ skills can significantly enhance work efficiency.
+Leadership Qualities (if applicable): For roles that require leadership, it’s 
+important to evaluate the candidate’s ability to lead, motivate, and guide others.
+""Does the answer reflect the candidate's ability to work in a team or lead effectively?""
+Strong Teamwork/Leadership: The answer highlights effective collaboration or leadership qualities.
+Weak Teamwork/Leadership: The answer shows a lack of teamwork skills or ineffective leadership.
+
+
+For each interview question and answer provide at the beginning, rate the response based on the above aspects.
+Provide a score and feedback for each aspect in 10/10 scale.
+Offer an overall evaluation of the answer's strengths and areas for improvement.
+","Relevance to Question: 10/10
+The answer directly addresses the question asked, providing insight into how the candidate stays motivated and manages their time effectively.
+
+Technical Skills: 5/10
+While the answer demonstrates a good understanding of time management strategies and their application, it does not provide any detail about the candidate's technical skills related to AI/ML or software development.
+
+Problem-Solving Abilities: 8/10
+The candidate's use of the Eisenhower Matrix and Pomodoro Technique does show an ability to solve problems related to time management and efficiency. However, it's unclear how they would approach more technical problems.
+
+Communication Skills: 10/10
+The answer is clear, concise, and well-structured. The candidate demonstrates good communication skills by effectively explaining their methods.
+
+Cultural Fit: 7/10
+The candidate's dedication to efficiency and their proactive approach to setting and achieving goals aligns with S&P Global's focus on providing essential intelligence and making informed decisions. However, the answer does not provide enough information to fully evaluate cultural fit.
+
+Adaptability: 8/10
+Using different techniques to manage tasks and time shows adaptability. The candidate seems to be open to trying new strategies and tools to increase efficiency.
+
+Teamwork and Collaboration: 5/10
+The answer does not provide specific information about the candidate's ability to work in a team or collaborate with others.
+
+Leadership Qualities (if applicable): 5/10
+The answer does not provide any information about the candidate's leadership skills or experiences.
+
+Overall evaluation: 
+The candidate's answer is strong in terms of relevance, communication, adaptability, and problem-solving abilities. However, they should improve by providing more information about their technical skills, teamwork, and leadership abilities. They should also consider sharing more about their values and experiences to demonstrate a better cultural fit with S&P Global."
+gpt_4,1,1,"
+As an experienced career coach, you help students improve their skills for 
+answering behavioral interview questions.  Please help this student improve the 
+answer to the behavioral interview question {interview_questions} during the 
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score, and point by point feedback with rationale.
+Then, give your improved answer with a score and the rationale of why it is better.
+ 
+Here are aspects that how interviewers should answer a behavioral interview question: 
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question: 
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Score: 8/10
+
+Feedback: 
+1. Specific Examples: The student did well in providing a specific example of a challenging project that he led. It's clear and relevant to the role he's applying for. 
+2. STAR Method: The student used the STAR method but could have provided more detail on the situation, task and actions to present a more comprehensive picture of the project.
+3. Relevance to the Role: The example was relevant to the role and demonstrated project management and problem-solving skills.
+4. Problem-Solving Skills: The student showed problem-solving skills through brainstorming sessions and delegating tasks.
+5. Teamwork and Collaboration: The student highlighted his teamwork and collaboration skills but could have provided more details on how he worked with his team.
+6. Adaptability and Flexibility: The student showed adaptability by handling unexpected technical hurdles but could have elaborated more on this.
+7. Leadership and Initiative: The student demonstrated leadership by leading the project and taking initiative to organize extra sessions.
+8. Results and Impact: The student mentioned the successful outcome but could have quantified the impact.
+9. Personal Development: The student did not reflect on what he learned from the experience.
+10. Cultural Fit: The student did not discuss how his values align with the company's culture.
+
+Improved Answer:
+In my last role as a project manager at a software development company, I was tasked with leading a team of eight on a project for a client who required a complex data management system within a tight three-month deadline. A significant challenge was the unexpected technical hurdles that arose due to the complexity of the system we were building. 
+
+Understanding the high stakes, I took the initiative to organize extra brainstorming sessions where we could collectively devise solutions to overcome these hurdles. I also delegated tasks based on individual strengths, ensuring everyone was working in areas where they could contribute the most. 
+
+For instance, one of our main hurdles was integrating different data sources into the system. I assigned this task to two of our strongest coders who had experience in data integration. Their work, along with the team's combined efforts, led to the successful delivery of the project on time. 
+
+The client was extremely satisfied with our work, stating that the system exceeded their expectations and improved their data management efficiency by 40%. This project taught me the importance of adaptability in the face of unexpected challenges and reinforced my belief in the power of teamwork. 
+
+I believe these experiences align well with the values of S&P Global, particularly in terms of commitment to high-quality work and teamwork, making me a great fit for the Data Engineer - AI/ML role.
+
+Score: 10/10
+
+Rationale: The improved answer provides a more comprehensive use of the STAR method, adding more detail to the situation, task, and actions taken. It also quantifies the result, reflecting on personal development and aligns with the company's culture, thus covering all key aspects of answering a behavioral interview question."
+gpt_4,5,1,"
+As an experienced career coach, you help students improve their skills for 
+answering behavioral interview questions.  Please help this student improve the 
+answer to the behavioral interview question {interview_questions} during the 
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score, and point by point feedback with rationale.
+Then, give your improved answer with a score and the rationale of why it is better.
+ 
+Here are aspects that how interviewers should answer a behavioral interview question: 
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question: 
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's Answer Score: 2/10
+
+Feedback:
+1. Specific Examples: The student does mention a challenging project, but does not provide specific examples that highlight their skills or experiences.
+2. STAR Method: The student's response does not follow the STAR method. There is a mention of a situation, but the task, action, and result are not clearly defined.
+3. Relevance to the Role: The response does not show how the experience is relevant to the role of Data Engineer - AI/ML.
+4. Problem-Solving Skills: The student does not demonstrate problem-solving skills as they admit to only sticking to tasks they were comfortable with.
+5. Teamwork and Collaboration: There is no mention of teamwork or collaboration.
+6. Adaptability and Flexibility: There is a lack of adaptability and flexibility as the student did not venture beyond their comfort zone.
+7. Leadership and Initiative: The response does not show any leadership skills or initiative.
+8. Results and Impact: The student does not mention any results or impact from their actions.
+9. Personal Development: There is no reflection on what was learned from the experience.
+10. Cultural Fit: The student does not mention any aspects related to cultural fit.
+
+Improved Answer: 
+During my previous role at XYZ company, I was tasked with the development of a complex data pipeline for a machine learning project (Situation). As a Data Engineer, my role was to ensure the efficient and accurate delivery of data from diverse sources for the AI model (Task). Initially, the project was overwhelming due to the complexity and volume of the data. However, I took this as a challenge and divided the project into manageable tasks. I collaborated with the data science team to understand the specific data needs for the AI model, and I used these insights to design and implement an efficient data pipeline. I also learned new data transformation techniques and tools to cater to the unique requirements of this project (Action). As a result, we were able to feed the correct data into our model, which significantly improved its accuracy. The project was a success, and I was praised for my problem-solving skills and adaptability (Result). This experience has strengthened my data engineering skills and prepared me for future complex projects, especially in the field of AI/ML.
+
+Improved Answer Score: 9/10
+
+Rationale: The improved answer effectively uses the STAR method to describe the situation, task, actions, and results. It demonstrates problem-solving skills, teamwork, adaptability, and leadership. The answer is also tailored to the role of Data Engineer - AI/ML, and it reflects on the personal development and learning from the experience. However, it could include more quantifiable results for added credibility."
+gpt_4,23,1,"
+As an experienced career coach, you help students improve their skills for 
+answering behavioral interview questions.  Please help this student improve the 
+answer to the behavioral interview question {interview_questions} during the 
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score, and point by point feedback with rationale.
+Then, give your improved answer with a score and the rationale of why it is better.
+ 
+Here are aspects that how interviewers should answer a behavioral interview question: 
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question: 
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's answer score: 7/10
+
+Feedback:
+1. Specific Examples: The student provided a concrete example of using the Eisenhower Matrix and the Pomodoro Technique to manage time and stay motivated. This gives a clear picture of the methods they use. Excellent job on this aspect.
+2. STAR Method: The student used this method to an extent, but could have been more specific about the situation and task that required the use of these techniques, and the actions taken to implement them.
+3. Relevance to the Role: The student's answer is relevant for a Data Engineer role where time management and efficiency are key. However, they could have highlighted more about how these skills are especially relevant to data engineering work.
+4. Problem-Solving Skills: The student did not explicitly mention problem-solving skills. These skills are crucial for a Data Engineer role, and should be added.
+5. Teamwork and Collaboration: The student did not mention teamwork or collaboration, which are also important aspects especially in a virtual environment. 
+6. Adaptability and Flexibility: No mention.
+7. Leadership and Initiative: Not mentioned.
+8. Results and Impact: The student did well in stating the results of their approach, quantifying it with a 20% increase in efficiency.
+9. Personal Development: Not mentioned.
+10. Cultural Fit: The student did not mention anything regarding the culture of S&P Global and how they would fit in. 
+
+Improved answer:
+""Throughout my time as a data engineer, I have always been motivated by the opportunity to solve complex problems and provide data-driven insights. I set challenging yet achievable goals for myself, which keeps me driven. I understand the importance of time management and have developed a system that works well for me. I use the Eisenhower Matrix to prioritize tasks based on urgency and importance, and then I use the Pomodoro Technique for focused work sessions. 
+
+For instance, when I was working on a project which involved cleaning and processing large data sets, I found that the tasks were becoming overwhelming. I implemented my system, prioritizing the tasks using the Eisenhower Matrix, and then focusing on one task at a time using the Pomodoro Technique. I made sure to communicate my plan with my team and kept them updated about the progress. This approach not only helped me manage my time effectively but also increased the efficiency of my department by 20%. 
+
+I continually refine my process to adapt to changing circumstances and workloads. This approach suits the fast-paced, problem-solving nature of a data engineering role. I believe this fits well with the innovative and dynamic culture at S&P Global.""
+
+Improved answer score: 9/10
+
+Rationale: The improved answer provides more context by mentioning a specific project. It also touches upon problem-solving skills, teamwork and collaboration, adaptability and flexibility, relevance to the role, and cultural fit. It still quantifies the result (20% increase in efficiency) to provide tangible evidence of the effectiveness of the student's time management and motivation strategies."
+gpt_4,1,1,"
+As an experienced career coach, you help students improve their skills for
+answering behavioral interview questions.  Please help this student improve the
+answer to the behavioral interview question {interview_questions} during the
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score, and point by point feedback with rationale.
+Then, give your improved answer with a score and the rationale of why it is better.
+
+Here are job description and company backgroound that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here are aspects that how interviewers should answer a behavioral interview question:
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question:
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's Answer Score: 7/10
+
+Feedback with rationale:
+
+1. Specific Examples: The student provided a concrete example of a challenging project they handled in the past. This is good as it gives the interviewer a clear picture of their experience and problem-solving skills. 
+
+2. STAR Method: The student used the STAR method to structure their response. They described the situation (high-stakes software development project with a tight deadline and unexpected technical hurdles), the task (leading the team), the action (organizing extra brainstorming sessions, delegating tasks, and maintaining open communication), and the result (delivering the project on time and receiving positive feedback from the client). This structure makes the answer clear and easy to follow.
+
+3. Relevance to the Role: The student could have done a better job of tailoring their answer to the specific role of a Data Engineer - AI/ML. They did not mention any relevant skills like implementing machine learning algorithms, working with AI/ML models, or dealing with data.
+
+4. Problem-Solving Skills: The student demonstrated problem-solving skills by describing how they overcame technical difficulties and met a tight deadline.
+
+5. Teamwork and Collaboration: The student showcased their teamwork and leadership skills by highlighting how they led the team, organized brainstorming sessions, and delegated tasks.
+
+6. Adaptability and Flexibility: The student showed adaptability and flexibility by handling unexpected technical hurdles.
+
+7. Results and Impact: The student shared the positive outcome of their actions, adding credibility to their problem-solving and leadership skills.
+
+8. Personal Development: The student could have shared what they learned from the experience to demonstrate their growth mindset.
+
+9. Cultural Fit: The student did not specify how their values align with S&P Global's culture.
+
+Improved Answer:
+
+""In my previous role as a project manager, I led a team on a challenging artificial intelligence software development project for a major client. The project had a strict deadline, and we encountered several unexpected technical hurdles. Despite these challenges, I leveraged my strong problem-solving skills and knowledge of machine learning to guide my team effectively.
+
+To navigate the technical hurdles, I organized extra brainstorming sessions where we collaboratively came up with innovative solutions. I then delegated tasks based on individual strengths, ensuring that each team member was working in an area where they could excel. I also maintained open communication with stakeholders, keeping them informed about our progress and any challenges we faced.
+
+As a result of our collective efforts and my leadership, we delivered the project on time. It was well-received by the client, who praised the quality of our work and our efficient problem-solving. This experience not only honed my technical skills in AI/ML but also my ability to lead a team under pressure, which I believe will be invaluable in the Data Engineer role at S&P Global.
+
+Moreover, I believe the values I demonstrated in this project align with S&P Global's culture of collaboration, agility, and commitment to delivering quality results. I am eager to bring my skills, experiences, and adaptability to your team and contribute to your AI/ML initiatives.""
+
+Improved Answer Score: 9/10
+
+Rationale: This answer is more tailored to the specific role of Data Engineer - AI/ML at S&P Global. It details relevant technical and leadership skills and directly addresses how the candidate's values align with the company's culture. Additionally, it includes what the candidate learned from the experience, demonstrating a growth mindset."
+gpt_4,5,1,"
+As an experienced career coach, you help students improve their skills for
+answering behavioral interview questions.  Please help this student improve the
+answer to the behavioral interview question {interview_questions} during the
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score, and point by point feedback with rationale.
+Then, give your improved answer with a score and the rationale of why it is better.
+
+Here are job description and company backgroound that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here are aspects that how interviewers should answer a behavioral interview question:
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question:
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's Answer Score: 3/10
+
+Feedback:
+The student's response lacks detail and doesn't provide a good understanding of their role in the project, the specific challenges they faced, or how they handled them. It also doesn't show any demonstration of skills or experiences relevant to the Data Engineer - AI/ML role at S&P Global. The response also fails to mention any outcomes or achievements, making it difficult to assess their competency or performance. Furthermore, the student's answer indicates a lack of initiative and adaptability, which are important qualities for the role in question.
+
+Improved Answer:
+
+In a previous role as a data engineer, I was tasked with the challenge of developing an AI model for predicting customer churn for a telecom company. I was the lead data engineer responsible for the entire lifecycle of the project, from data collection and cleaning to implementing machine learning algorithms.
+
+The project was challenging due to the large volume of data and the complexity of the churn patterns. I started by conducting a thorough analysis of the existing data, identifying gaps, and figuring out ways to fill them. I used Python for data cleaning and manipulation and implemented machine learning algorithms using Scikit-learn. 
+
+One major challenge was dealing with the imbalance in the dataset, which could potentially bias the model towards the majority class. To handle this, I implemented an oversampling technique known as SMOTE to balance the dataset.
+
+In terms of teamwork, I worked closely with a team of data scientists, regularly communicating progress and ensuring that our efforts were aligned towards the business goal. I also collaborated with business stakeholders to understand their needs and incorporated their feedback into the model's development.
+
+The result was a predictive model with an 85% accuracy rate, which significantly improved the company's ability to anticipate customer churn and implement effective retention strategies. This project taught me the importance of thorough data analysis, effective communication with stakeholders, and the value of team collaboration in achieving project goals.
+
+Improved Answer Score: 9/10
+
+Rationale:
+The improved answer provides a detailed and specific example that aligns well with the job role and requirements. It effectively uses the STAR method to organize the response, detailing the situation, task, actions taken, and the results achieved. The answer demonstrates relevant technical skills, problem-solving abilities, teamwork, and communication skills. It also shows adaptability, initiative, and a focus on achieving results, which are important qualities for the role. The mention of quantifiable results adds credibility to the response and shows a clear impact of the candidate's work. This answer offers the interviewer a comprehensive understanding of the candidate's capabilities and how they can contribute to the role."
+gpt_4,23,1,"
+As an experienced career coach, you help students improve their skills for
+answering behavioral interview questions.  Please help this student improve the
+answer to the behavioral interview question {interview_questions} during the
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score, and point by point feedback with rationale.
+Then, give your improved answer with a score and the rationale of why it is better.
+
+Here are job description and company backgroound that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here are aspects that how interviewers should answer a behavioral interview question:
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question:
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's Answer Score: 8/10
+
+Feedback:
+The student's response is quite good as they demonstrate their ability to set goals, prioritize tasks, and manage time effectively. They also provide a quantifiable achievement, which is always beneficial in interviews. However, they could provide a more specific example to illustrate their approach in action, and could also tie their answer more directly to the role and company they are applying for. 
+
+Improved Answer:
+I draw motivation from setting challenging yet achievable goals. I use the Eisenhower Matrix to prioritize tasks according to their urgency and importance. This helps me focus on tasks that are vital for project success and delegate or schedule less critical tasks appropriately. I also use the Pomodoro Technique for focused work sessions, breaking tasks into 25-minute intervals with short breaks in between. This helps me maintain high productivity levels without burning out. 
+
+For example, while working on a complex AI model at my previous job, I used these techniques to manage multiple tasks simultaneously, including data collection, algorithm implementation, and performance evaluation. This approach enabled me to increase efficiency by 20%, leading to more accurate models and timely delivery of the project. 
+
+In the role at S&P Global, I would apply these same techniques to manage my workload effectively. Given the company's focus on delivering essential intelligence and the role's emphasis on developing AI models, I believe my goal-oriented motivation and effective time management skills will contribute significantly to achieving the team's objectives.
+
+Improved Answer Score: 10/10
+
+Rationale: 
+The improved answer includes a more specific example, which provides better insight into how the candidate applies their time management and motivation techniques in a real-world scenario. It also ties the candidate's approach directly to the role at S&P Global, demonstrating their understanding of the company and role they are applying for. This makes the answer more tailored and relevant, which is likely to impress the interviewer."
+gpt_4,1,1,"
+As an experienced career coach, you help students improve their skills for
+answering behavioral interview questions.  Please help this student improve the
+answer to the behavioral interview question {interview_questions} during the
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score;
+Second, give feedback for the student's answer, point by point with rationale based on 10 aspects of how interviewers should answer a behavioral interverview question;
+Third, give your improved answer; 
+Fourth, give a score for your improved answer and the rationale of why it is better.
+
+Here are job description and company backgroound that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here are aspects that how interviewers should answer a behavioral interview question:
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question:
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's Answer Score: 7/10
+
+Feedback for the Student's Answer:
+
+1. Specific Examples: You provided a specific example of a challenging project you worked on, which is good. However, as this is for a Data Engineer - AI/ML role, it would have been better to choose a project more relevant to the job. (Score: 0.5/1)
+
+2. STAR Method: Your response was structured well in the STAR method. You described the situation, your tasks, the actions you took, and the result. (Score: 1/1)
+
+3. Relevance to the Role: Your answer was not very relevant to the specific role of a Data Engineer - AI/ML. A more related example involving AI/ML would have been more appropriate. (Score: 0.5/1)
+
+4. Problem-Solving Skills: You demonstrated problem-solving skills by organizing extra brainstorming sessions and delegating tasks based on individual strengths, which is commendable. (Score: 1/1)
+
+5. Teamwork and Collaboration: Your answer showed your ability to work with a team, delegate tasks, and maintain open communication, which is excellent. (Score: 1/1)
+
+6. Adaptability and Flexibility: You showed adaptability by handling unexpected technical hurdles and a tight deadline. (Score: 1/1)
+
+7. Leadership and Initiative: You demonstrated leadership and initiative by leading the team, organizing brainstorming sessions, and delegating tasks. (Score: 1/1)
+
+8. Results and Impact: You shared the result of the project as being delivered on time and well-received by the client, which is good. However, more specific, quantifiable results would have been better. (Score: 0.5/1)
+
+9. Personal Development: Your answer did not include any reflection on what you learned from the experience or how it contributed to your personal or professional growth. (Score: 0/1)
+
+10. Cultural Fit: You did not mention anything about how you would fit into the company's culture or values. (Score: 0.5/1)
+
+Improved Answer:
+In my previous role as a data engineer at XYZ Company, we faced a significant challenge in developing an AI/ML model that could predict customer churn accurately. The project's complexity was compounded by a tight deadline and the need to handle a large, unstructured dataset. 
+
+My role involved cleaning the dataset, implementing machine learning algorithms, and evaluating the model's performance. I led a team of three and organized weekly brainstorming sessions to identify potential improvements in our approach. I delegated tasks based on individual strengths, focusing on the team's Python programming and data analysis skills. 
+
+To ensure smooth progress, I maintained open communication with stakeholders, providing updates and managing expectations. I also collaborated closely with the QA team to fix bugs promptly, ensuring the model's accuracy. 
+
+Despite the challenges, our team successfully delivered the model on time. It achieved an accuracy rate of 85%, significantly better than the initial target of 70%. This result helped the marketing team strategize their customer retention efforts more effectively, resulting in a 10% decrease in customer churn within the first quarter of the model's implementation. 
+
+From this experience, I learned the importance of effective communication, especially when dealing with complex projects under tight deadlines. It also reinforced the value of teamwork and leveraging individual strengths to achieve common goals. 
+
+In terms of cultural fit, I thrive in environments that value agility and diversity, like S&P Global. I believe my ability to adapt and solve complex problems aligns well with the company's values and would make me a valuable addition to the team.
+
+Improved Answer Score: 9/10
+
+Rationale: The improved answer is more relevant to the role of a Data Engineer - AI/ML as it includes a project involving AI/ML. The student demonstrated problem-solving, leadership, teamwork, adaptability, and communication skills. The results and impact of the project were quantified, and the student reflected on what they learned from the experience. The answer also showed the student's fit within the company's culture. However, the answer could be improved by demonstrating more initiative and self-motivation."
+gpt_4,5,1,"
+As an experienced career coach, you help students improve their skills for
+answering behavioral interview questions.  Please help this student improve the
+answer to the behavioral interview question {interview_questions} during the
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score;
+Second, give feedback for the student's answer, point by point with rationale based on 10 aspects of how interviewers should answer a behavioral interverview question;
+Third, give your improved answer; 
+Fourth, give a score for your improved answer and the rationale of why it is better.
+
+Here are job description and company backgroound that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here are aspects that how interviewers should answer a behavioral interview question:
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question:
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's Answer Score: 4/10
+
+Feedback/Rationale:
+
+1. Specific Examples: The student did provide an example, but it lacked detail and context. It wasn't clear what the project was about or why it was challenging.
+2. STAR Method: This answer doesn't follow the STAR method. The situation is vague, the task isn't defined, the actions are limited, and there's no mention of the outcome or result.
+3. Relevance to the Role: It's unclear how this experience relates to the role of a Data Engineer. The student didn't mention any technical skills or tasks associated with data engineering.
+4. Problem-Solving Skills: The student didn't demonstrate any problem-solving skills. They actually admitted to avoiding the challenging aspects of the project.
+5. Teamwork and Collaboration: There's no mention of teamwork or collaboration, which are important components of the role.
+6. Adaptability and Flexibility: The student showed a lack of adaptability by sticking to tasks they were comfortable with instead of taking on new challenges.
+7. Leadership and Initiative: There's no evidence of leadership or initiative in the student's answer.
+8. Results and Impact: The student didn't discuss the results of their work on the project.
+9. Personal Development: There's no reflection on what the student learned from the experience.
+10. Cultural Fit: The student didn't mention anything about the company's culture or how they would fit into it.
+
+Improved Answer:
+
+In my previous role as a Junior Data Engineer, I was assigned to a challenging project that involved developing a predictive model for sales forecasting. My primary task was to collect, clean and prepare the data for the AI/ML algorithm implementation.
+
+Initially, the project was overwhelming due to the massive volume of data and tight deadlines. However, I was determined to overcome these challenges. I started by breaking down the project into manageable tasks and setting a timeline for each one. I also collaborated closely with team members, particularly on complex data cleaning tasks, and communicated regularly with the project manager to update them on the progress.
+
+Despite these efforts, we faced a major setback when the model failed to deliver accurate forecasts due to some data inconsistencies. Instead of panicking, I took this as a learning opportunity. I meticulously reviewed the data and discovered some anomalies that were causing the inaccuracies. After cleaning the data further and fine-tuning the model, the accuracy of our forecasts significantly improved.
+
+This experience not only honed my technical skills but also taught me the importance of resilience, adaptability, and effective communication in a team setting. I believe these skills would be invaluable in the Data Engineer - AI/ML role at S&P Global.
+
+Improved Answer Score: 9/10
+
+Rationale: This answer is significantly improved because it provides a detailed example that follows the STAR method. It shows the candidate's problem-solving skills, adaptability, teamwork, and communication skills. It also connects the experience to the role they're applying for and reflects on what they learned. The only area for improvement is to further quantify the impact or results of the actions taken."
+gpt_4,23,1,"
+As an experienced career coach, you help students improve their skills for
+answering behavioral interview questions.  Please help this student improve the
+answer to the behavioral interview question {interview_questions} during the
+interview of {role_title} at {company_name}.
+
+The student’s answer: {question_answers}
+
+First, give the student's answer a score;
+Second, give feedback for the student's answer, point by point with rationale based on 10 aspects of how interviewers should answer a behavioral interverview question;
+Third, give your improved answer; 
+Fourth, give a score for your improved answer and the rationale of why it is better.
+
+Here are job description and company backgroound that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here are aspects that how interviewers should answer a behavioral interview question:
+When answering behavioral interview questions, it's essential to present your qualifications effectively by incorporating specific aspects that highlight your skills, experiences, and personal attributes. These aspects are crucial in demonstrating your suitability for the role and how well you align with the organization's values and culture. Here are key aspects to include:
+1.	Specific Examples: Use concrete examples from your past experiences to illustrate how you've handled situations relevant to the question. This provides tangible evidence of your skills and abilities.
+2.	STAR Method: Structure your response using the STAR method – Situation, Task, Action, and Result. This helps in organizing your answer clearly and concisely:
+•	Situation: Describe the context or background of the example you're using.
+•	Task: Explain the task or challenge you were facing.
+•	Action: Detail the specific actions you took to address the task or challenge.
+•	Result: Share the outcomes of your actions, highlighting your contributions and any lessons learned.
+3.	Relevance to the Role: Tailor your examples to demonstrate skills and attributes that are directly relevant to the job you're applying for. Show how your past experiences have prepared you for this specific role.
+4.	Problem-Solving Skills: Highlight your ability to identify problems, think critically, and implement effective solutions. Employers value candidates who can tackle challenges proactively.
+5.	Teamwork and Collaboration: Discuss how you work with others, emphasizing teamwork, communication, and interpersonal skills, especially if the role involves working closely with a team.
+6.	Adaptability and Flexibility: Show your ability to adapt to new situations, learn from experiences, and remain flexible in the face of change or uncertainty.
+7.	Leadership and Initiative: For roles that require leadership, illustrate your ability to lead, inspire, and motivate others. Even for non-leadership roles, showing initiative and the ability to take charge in appropriate situations can be beneficial.
+8.	Results and Impact: Focus on the results and impact of your actions. Quantify your achievements where possible, as this adds credibility and a sense of scale to your accomplishments.
+9.	Personal Development: Reflect on what you learned from the experience and how it contributed to your personal and professional growth.
+10.	Cultural Fit: Convey how your values, work ethic, and personality align with the company's culture. Show that you not only have the skills for the job but also would thrive in the organization's environment.
+Including these aspects in your behavioral interview responses can significantly strengthen your answers, showcasing your qualifications, experiences, and fit for the role.
+
+Here are aspects that companies hope to get from your answer of a behavioral question:
+Companies conduct behavioral interviews to assess various aspects of a candidate's past behavior, skills, and performance to predict their future behavior and suitability for the role in their organization. Here are some key elements that companies typically look for during behavioral interviews:
+1.	Past Performance as an Indicator of Future Behavior: Companies believe that past behavior is a good predictor of future behavior. By understanding how you handled situations in the past, they can gauge how you might perform in similar situations in their organization.
+2.	Problem-Solving and Decision-Making Skills: Employers look for candidates who can demonstrate effective problem-solving and decision-making skills. They are interested in how you approach challenges, analyze problems, and arrive at solutions.
+3.	Teamwork and Collaboration: Since most roles require some level of teamwork, companies want to see how well you work with others. Your ability to collaborate, communicate effectively, and contribute to a team is crucial.
+4.	Adaptability and Flexibility: With the fast pace of change in the workplace, companies seek candidates who can adapt to new situations and challenges quickly and effectively.
+5.	Leadership Qualities: For roles that involve leading others, employers look for leadership potential. This includes your ability to motivate, guide, and influence others, even if the role is not a traditional leadership position.
+6.	Work Ethic and Professionalism: Your approach to work, commitment to quality, and professional conduct are important to employers. They want to ensure you have a strong work ethic and can represent the company positively.
+7.	Cultural Fit: Companies are keen on finding candidates who will fit well with their organizational culture. This includes sharing similar values, work styles, and the ability to thrive in the company’s work environment.
+8.	Resilience and Stress Management: Employers may look for signs of resilience and your ability to handle stress or failure. They want employees who can remain productive and positive, even in challenging situations.
+9.	Communication Skills: Effective communication is key in any role. Companies assess your ability to articulate ideas clearly, listen to others, and communicate in a way that is effective and appropriate for the workplace.
+10.	Initiative and Self-motivation: Demonstrating that you are a self-starter who takes initiative is highly valued. Companies prefer candidates who show they can work independently and are motivated to achieve.
+In summary, behavioral interviews are designed to evaluate a candidate's suitability not only in terms of skills and experience but also in terms of their personality, work habits, and potential fit within the company's culture and team dynamics.
+","Student's Answer Score: 8/10
+
+Feedback for the Student's Answer:
+
+1. Specific Examples: You have provided a clear example of your time management strategy, which includes the use of the Eisenhower Matrix and Pomodoro Technique. This gives the interviewer an idea of how you manage your tasks. Score: 1/1
+
+2. STAR Method: You have structured your answer well, but there could be more context on the situation (the specific projects you were managing) and more details on the action (how you used the time management techniques). Score: 0.75/1
+
+3. Relevance to the Role: You successfully connected your efficient time management with your ability to manage multiple projects, a skill necessary for the role. However, you did not mention how your motivation aligns with the role's demands. Score: 0.75/1
+
+4. Problem-Solving Skills: You addressed this indirectly by mentioning how your time management skills increased efficiency. However, more explicit mention of problem-solving would strengthen your answer. Score: 0.75/1
+
+5. Teamwork and Collaboration: This aspect is not mentioned in your answer. As the role involves working closely with stakeholders and a QA team, demonstrating teamwork skills would be beneficial. Score: 0/1
+
+6. Adaptability and Flexibility: By managing multiple projects simultaneously, you showed some level of adaptability. However, this could be further elaborated. Score: 0.5/1
+
+7. Leadership and Initiative: You showed initiative in using specific techniques to manage your time effectively. However, there's no mention of leadership skills. Score: 0.5/1
+
+8. Results and Impact: You quantified your achievement, mentioning a 20% increase in efficiency. This provides a good sense of the impact of your actions. Score: 1/1
+
+9. Personal Development: There's no mention of what you learned from the experience or how it contributed to your personal or professional growth. Score: 0/1
+
+10. Cultural Fit: You didn't mention how your values, work ethic, or personality align with the company's culture. Score: 0/1
+
+Improved Answer:
+""My motivation comes from my passion for learning and implementing emerging technologies, such as AI and machine learning, and the satisfaction I derive from seeing the tangible results of my work. As a data engineer at my previous job, I was responsible for managing multiple projects simultaneously. To effectively manage my time and ensure optimum productivity, I adopted the Eisenhower Matrix and the Pomodoro Technique. The former helped me prioritize tasks based on urgency and importance, while the latter allowed me to maintain focus and prevent burnout. For instance, while working on a project involving the implementation of machine learning algorithms, these techniques enabled me not only to meet the deadline but also to produce a model with a higher than expected prediction accuracy. This accomplishment led to a 20% increase in efficiency in my department, and it also taught me the importance of being adaptable and innovative in my approach to problem-solving. In terms of teamwork, I regularly collaborated with stakeholders and the QA team to understand business needs and fix bugs, fostering an environment of open communication and mutual respect. I believe my ability to work both independently and as part of a team, coupled with my strong problem-solving skills and passion for continuous learning, align well with S&P Global's agile and diverse culture.""
+
+Improved Answer Score: 10/10
+
+Rationale: The improved answer is stronger because it includes all the key aspects for answering a behavioral interview question. It provides specific examples of past experiences, uses the STAR method, shows relevance to the role, highlights problem-solving skills, and demonstrates teamwork and collaboration. It also exhibits adaptability and flexibility, leadership and initiative, quantifies results and impact, reflects on personal development, and conveys alignment with the company's culture."

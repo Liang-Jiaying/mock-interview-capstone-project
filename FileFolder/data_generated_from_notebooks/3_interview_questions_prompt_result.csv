@@ -1,0 +1,165 @@
+model,variable_combination,template,output
+gpt_4,1,"
+I am preparing for a {role_title} job interview at {company_name}. As a professional 
+with expertise in recruitment and interview processes for technical roles, can 
+you provide me with specific and challenging interview questions that {company_name} 
+might ask to assess my technical and problem-solving skills, familiarity with 
+{company_name}'s work culture, and ability to handle real-world data science scenarios?
+","1. Can you describe a time when you had to design an AI/ML model from scratch to solve a business problem? What were the challenges and how did you overcome them?
+
+2. How would you explain Machine Learning to a non-technical stakeholder? 
+
+3. Can you discuss a time when you had to clean and prepare a large dataset for a project? What were the challenges and how did you handle them?
+
+4. S&P Global works in a fast-paced environment. Can you provide an example illustrating your ability to quickly adapt to new technologies or methodologies?
+
+5. Can you share your experience working in an Agile environment? What do you consider to be the key advantages and challenges of the Agile approach?
+
+6. Describe a situation where you had to communicate a complex technical concept to a non-technical audience. How did you ensure that the audience understood your explanation?
+
+7. Can you provide a specific example of when you had to troubleshoot a problem in your code? What was the problem and how did you solve it?
+
+8. Can you discuss a project where you had to work closely with QA teams? How did you ensure clear communication and collaboration?
+
+9. S&P Global values diversity and inclusion. Can you share an experience where you have worked in a diverse team and how it influenced your work?
+
+10. In your opinion, what are the most significant considerations when implementing cloud solutions in a corporate finance setting?
+
+11. Can you describe a situation where your AI/ML model did not perform as expected? How did you identify the issue and what steps did you take to improve the performance?
+
+12. Can you discuss a time when you had to make a critical decision during a project? What factors did you consider and what was the outcome?
+
+13. Describe a situation where you had to balance multiple tasks or projects at once. How did you prioritize your work?
+
+14. Can you share your experience with automation? How have you applied automation in your previous roles to improve efficiency?
+
+15. S&P Global is committed to providing essential intelligence that powers decision-making. Can you share an example where your work contributed to smarter decision-making in your previous role? 
+
+Remember, the goal is not just to answer the questions but also to demonstrate your problem-solving skills, technical knowledge, and ability to adapt and communicate in a dynamic environment."
+gpt_4,1,"
+I am gearing up for a {role_title} interview at {company_name}. Given your deep 
+understanding of {company_name}'s unique business challenges, technological environment, 
+and its focus on customer-centric solutions, could you provide advanced and 
+specific interview questions that would assess my technical expertise, 
+problem-solving abilities, and alignment with {company_name}'s mission and principles, 
+particularly in data-driven decision-making and innovation in the field of data 
+science?
+","1. Can you share an example of a project where you developed AI or ML models to help a business make better decisions? What was the outcome?
+
+2. How have you used programming languages such as Python or Java in your previous roles to develop software solutions?
+
+3. S&P Global relies heavily on data-driven decisions. Can you tell us about a time when you used data to solve a complex problem?
+
+4. We often encounter situations where data is unstructured or messy. Can you describe your experience in data collection and cleaning? 
+
+5. Explain how you evaluate the performance of AI/ML models. Can you provide an example of a time when you had to make adjustments to a model based on your evaluation?
+
+6. Communication and collaboration are key in this role. Can you tell us about a time when you worked with stakeholders to understand business needs and develop solutions?
+
+7. Can you discuss a time when you worked closely with a QA team to fix bugs? How did you handle communication and collaboration in that situation?
+
+8. S&P Global values continuous learning, especially with emerging technologies. Can you share a recent technology or tool that you've learned and how you applied it to your work?
+
+9. At S&P Global, we are committed to delivering essential intelligence that powers decision-making. Can you tell us about a time when you used data to inform a significant decision, and how did it impact the outcome?
+
+10. Innovation is crucial in the field of data science. Could you talk about a time when you implemented an innovative solution to a complex problem? 
+
+11. How do you stay updated with the latest trends and developments in AI/ML? Can you discuss any recent development that caught your attention and its potential implications?
+
+12. Can you describe a time when you had to work independently to meet a tight deadline? How did you manage your time and resources?
+
+13. S&P Global appreciates a basic understanding of automation. Can you share an instance where you applied automation to improve efficiency in your previous roles?
+
+14. As this role involves a good deal of problem-solving, can you give an example of a complex problem you've encountered in your previous work and how you handled it?
+
+15. Finally, how do you align with S&P Global's mission and principles, particularly in terms of data-driven decision-making and innovation in data science?"
+gpt_4,1,"
+As an {interviewer_role} at {company_name}, I'm looking to assess the suitability
+ of a candidate for {role_title}. Based on {resume} and considering the 
+ responsibilities listed in {role_description}, what are 10 insightful questions
+  you would ask to evaluate the candidate's skills, experience, and overall fit 
+  for the role and company culture detailed in {company_description}?
+","1. Can you share an example of a project where you implemented machine learning algorithms and the impact it had on the project?
+2. How have you managed the process of data collection and cleaning in your past roles or projects?
+3. Can you provide an example of how you evaluated the performance of an AI/ML model and what actions you took as a result of the evaluation?
+4. How have you worked with stakeholders to understand their business needs and developed solutions accordingly?
+5. Could you describe a situation where you faced a challenge while deploying an AI model? How did you resolve it?
+6. Can you share your experience with daily scrum updates and how you contributed to the process?
+7. How have you worked closely with a QA team to fix bugs? Can you provide a specific example?
+8. What is your understanding of automation in the context of software development? Can you share an example of when you applied this understanding in a project?
+9. How do you keep yourself updated with emerging technologies? Can you share a recent technology you've learned about and how it could be applied in this role?
+10. S&P Global has a diverse and adaptable work culture. Can you share an example of how you've adapted to a similar work environment in the past?"
+gpt_4,1,"
+I am a {interviewer_role} preparing to interview a candidate for the {role_title}
+ at {company_name}. Given their technical background as highlighted in {resume} 
+ and the specific technical requirements mentioned in {role_description}, 
+ what are 10 challenging technical and problem-solving questions that would 
+ effectively gauge their technical proficiency and ability to contribute to the 
+ objectives outlined in {company_description}?
+","1. Can you describe a machine learning project you've worked on, the challenges you faced, and how you overcame them?
+2. How would you go about implementing a new AI model in an existing system? What considerations would you need to take into account?
+3. Can you explain how you would evaluate the performance of an AI/ML model? What metrics would you use and why?
+4. How would you approach cleaning a large dataset with missing or inconsistent data?
+5. Could you describe a situation where you had to work closely with stakeholders to understand their needs and develop a solution?
+6. How would you handle a situation where the AI model you've developed is not performing as expected?
+7. Can you explain your process for fixing bugs and ensuring the quality of your code?
+8. Describe a time when you had to make a crucial decision in a project. What was the situation, and how did you handle it?
+9. Have you ever had to learn a new technology or programming language for a project? How did you go about it?
+10. Can you give an example of a time you had to work independently and as part of a team on a project? How did you manage your responsibilities and coordinate with the team?"
+gpt_4,1,"
+As an {interviewer_role} for {company_name}, I am interested in understanding 
+how a candidate for {role_title} would fit into our team dynamics and handle 
+real-world scenarios. Referring to their experiences listed in {resume} and the 
+key competencies required as per {role_description}, could you suggest 10 
+behavioral and scenario-based interview questions that align with 
+{company_description} and help assess the candidate's soft skills, decision-making
+ abilities, and alignment with our company values?
+","1. Can you describe a time when you had to make a decision that wasn't popular but was necessary for a project's success? How did you handle the situation?
+
+2. Tell us about a time when you had to use your strong problem-solving skills to overcome a challenge in a project. What was the situation and what did you do?
+
+3. Our company values innovation and learning. Can you share a situation where you learned a new technology or methodology and applied it to your work?
+
+4. How would you handle a situation where you and a stakeholder have a disagreement about the direction of a project? 
+
+5. In this role, you'll be working closely with a team. Can you describe a time when you had to navigate a conflict within your team? 
+
+6. Describe a time when you had to explain a complex data analysis or technical concept to a non-technical stakeholder. How did you ensure they understood?
+
+7. If you discovered a significant error in an AI/ML model that had already been deployed, how would you handle the situation? 
+
+8. Can you tell us about a time when you had to work under tight deadlines? How did you ensure the quality of your work?
+
+9. Describe a situation where you had to use your initiative to solve a problem at work. What was the outcome?
+
+10. Our company has a strong commitment to sustainable finance. Can you tell us about any experiences you've had with environmental, social, or governance (ESG) factors in your previous roles?
+"
+gpt_4,1,"
+As an {interviewer_role} interviewing for the {role_title} at {company_name}, 
+I need to comprehensively assess a candidate's fit for the position. With 
+reference to the candidate's {resume}, the technical requirements and 
+responsibilities in the {role_description}, and aligning with the ethos and 
+objectives of {company_description}, what are 10 diverse and high-quality 
+interview questions that cover general fit and skills assessment, technical 
+expertise and problem-solving abilities, as well as behavioral and scenario-based 
+competencies? These questions should help in evaluating the candidate's overall 
+suitability for the role in terms of skills, experience, and cultural fit within
+ {company_name}.
+","1. General Fit and Skills Assessment Questions:
+   - Can you tell me about a time when you had to make a difficult decision within a project? What was the decision and what was the outcome?
+   - Given your background in data science, how do you approach problem-solving when you encounter a challenge in your work?
+   - How do you ensure that you are continuously learning and staying updated with the latest developments in AI and Machine Learning?
+
+2. Technical Expertise and Problem-Solving Questions:
+   - Can you describe a project where you had to implement machine learning algorithms? What were the challenges and how did you overcome them?
+   - How have you utilized Python or Java in your past projects to develop and deploy AI models?
+   - Can you discuss a time when you had to evaluate the performance of an AI/ML model? What metrics did you use and why?
+
+3. Behavioral and Scenario-based Questions:
+   - Can you provide an example of a time when you had to work closely with stakeholders to understand their business needs and develop solutions?
+   - How do you handle feedback from QA teams or stakeholders when there are bugs or issues with the software you developed?
+   - Tell me about a time when you had to balance working independently and as part of a team. How did you navigate this?
+
+4. Cultural Fit within S&P Global Questions:
+   - Our company values agility and diversity. Can you provide an example of a time when you demonstrated these values in your professional experience?
+   - S&P Global is dedicated to providing essential intelligence that powers decision-making. How does your experience align with this mission, and how would you contribute to it in your role?"
