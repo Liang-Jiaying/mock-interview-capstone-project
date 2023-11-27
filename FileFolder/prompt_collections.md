@@ -1,10 +1,10 @@
-# Prompt Collection —- Final Prompt That Been Used 
+# Prompt Collection — Final Prompt That Been Used 
 
 # Content:
-[Resume Review Prompt](#resume-review-prompt)
-[Cover Letter Prompt](#cover-letter-prompt)
-[Interview Questions Generator Prompt](#interview-questions-generator-prompt)
-[Improve Interview Answer Prompt](#improve-interview-answer-prompt)
+[Resume Review Prompt](#resume-review-prompt)  
+[Cover Letter Prompt](#cover-letter-prompt)  
+[Interview Questions Generator Prompt](#interview-questions-generator-prompt)  
+[Improve Interview Answer Prompt](#improve-interview-answer-prompt)  
 
 
 # Resume Review Prompt  
