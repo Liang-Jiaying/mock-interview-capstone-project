@@ -4,10 +4,9 @@ Note: Those information are from LinkedIn. I will provide the job link but those
 
 
 
-# 1. Data Scientist [Johnson & Johnson] (https://www.linkedin.com/jobs/view/3771761989)
-=================
-Job Description:
-=================
+# 1. Data Scientist [Johnson & Johnson](https://www.linkedin.com/jobs/view/3771761989)
+
+## Job Description:
 Description:
 
 Employer: Janssen Research & Development, LLC
@@ -41,9 +40,8 @@ For more information on how we support the whole health of our employees through
 
 Working with Johnson & Johnson can change everything—including you. Explore impactful jobs, inclusive employee benefits and how you can join us.
 
-=====================
-Company Description:
-=====================
+
+## Company Description:
 
 At Johnson & Johnson, we believe health is everything. As a focused healthcare company, with expertise in Innovative Medicine and MedTech, we’re empowered to tackle the world’s toughest health challenges, innovate through science and technology, and transform patient care.  ​
 
@@ -67,10 +65,8 @@ Health Care, Medical Devices & Diagnostics, and Pharmaceuticals
 
 
 
-# 2. Data Scientist - TikTok Ads [TikTok] (https://www.linkedin.com/jobs/view/3599612723)
-===================
-Job Description:
-===================
+# 2. Data Scientist - TikTok Ads [TikTok](https://www.linkedin.com/jobs/view/3599612723)
+## Job Description:
 Responsibilities
 
  TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo. 
@@ -105,9 +101,8 @@ We cover 100% premium coverage for employee medical insurance, approximately 75%
 Our time off and leave plans are: 10 paid holidays per year plus 17 days of Paid Personal Time Off (PPTO) (prorated upon hire and increased by tenure) and 10 paid sick days per year as well as 12 weeks of paid Parental leave and 8 weeks of paid Supplemental Disability. ​
 We also provide generous benefits like mental and emotional health benefits through our EAP and Lyra. A 401K company match, gym and cellphone service reimbursements. The Company reserves the right to modify or change these benefits programs at any time, with or without notice.​
 
-=====================
-Company Description:
-=====================
+
+## Company Description:
 TikTok is the world's leading destination for short-form video. Our platform is built to help imaginations thrive. This is doubly true of the teams that make TikTok possible.
 
 Our employees lead with curiosity, and move at the speed of culture. Combined with our company's flat structure, you'll be given dynamic opportunities to make a real impact on a rapidly expanding company as you grow your career. We have offices across Asia Pacific, the Middle East, Europe, and the Americas – and we're just getting started.
@@ -115,10 +110,9 @@ Our employees lead with curiosity, and move at the speed of culture. Combined wi
 
 
 
-# 3. Data Scientist [QinetiQ US] (https://www.linkedin.com/jobs/view/3665098764/?eBP=CwEAAAGMEvMd_4m7S2qpGw6uXIbxRHL2KmwrPvL4oIKWS52LwWZRX1HRLFeYCsxtyYj--UV4nrduePi3ZxpvJNioqQrWxyfYjlvkVx2mKVdvbht_S0cp3CeoyX5l93fq3d3Dg9SR5WNeMecy8ARrCOF0aQqmwB2jukpKth5XzOp4dOwPcrbcTRNjLcataYyrR8Un0SCxwlMsagy6lR18S4Ws9hepHk-hITqRBNrbTt82dIiL5kYADXGHPR4cp1Dd8UjE1fZ-WaCu-7r_ONQKzgbqG0WrCC4ihrq6uMqDlzV_FI7U4MGczDtUgpqezx95Q5N5Jen3WkDBMdtaOoKOmuQR4l8Dy6nABGoafAYnzfj3oO-uZwNQ4DX7Eq8UyW2wCF3ANNlesUrNcGA0-g&refId=13W78gMZ%2B3xk6PZtUm8%2F9w%3D%3D&trackingId=HlQFWn7BHdcu2uaWFcxlmQ%3D%3D&trk=flagship3_search_srp_jobs)
-===================
-Job Description:
-===================
+# 3. Data Scientist [QinetiQ US](https://www.linkedin.com/jobs/view/3665098764/?eBP=CwEAAAGMEvMd_4m7S2qpGw6uXIbxRHL2KmwrPvL4oIKWS52LwWZRX1HRLFeYCsxtyYj--UV4nrduePi3ZxpvJNioqQrWxyfYjlvkVx2mKVdvbht_S0cp3CeoyX5l93fq3d3Dg9SR5WNeMecy8ARrCOF0aQqmwB2jukpKth5XzOp4dOwPcrbcTRNjLcataYyrR8Un0SCxwlMsagy6lR18S4Ws9hepHk-hITqRBNrbTt82dIiL5kYADXGHPR4cp1Dd8UjE1fZ-WaCu-7r_ONQKzgbqG0WrCC4ihrq6uMqDlzV_FI7U4MGczDtUgpqezx95Q5N5Jen3WkDBMdtaOoKOmuQR4l8Dy6nABGoafAYnzfj3oO-uZwNQ4DX7Eq8UyW2wCF3ANNlesUrNcGA0-g&refId=13W78gMZ%2B3xk6PZtUm8%2F9w%3D%3D&trackingId=HlQFWn7BHdcu2uaWFcxlmQ%3D%3D&trk=flagship3_search_srp_jobs)
+
+## Job Description:
 We are a world-class team of professionals who deliver next generation technology and products in robotic and autonomous platforms, ground, soldier, and maritime systems in 50+ locations world-wide. Much of our work contributes to innovative research in the fields of sensor science, signal processing, data fusion, artificial intelligence (AI), machine learning (ML), and augmented reality (AR).
 
 QinetiQ US’s dedicated experts in defense, aerospace, security, and related fields all work together to explore new ways of protecting the American Warfighter, Security Forces, and Allies. Being a part of QinetiQ US means being central to the safety and security of the world around us. Partnering with our customers, we help save lives; reduce risks to society; and maintain the global infrastructure on which we all depend.
@@ -205,9 +199,8 @@ If because of a medical condition or disability you need a reasonable accommodat
 
 QinetiQ US is an Equal Opportunity/Affirmative Action employer. All Qualified Applicants will receive equal consideration for employment without regard to race, age, color, religion, creed, sex, sexual orientation, gender identity, national origin, disability, or protected Veteran status.
 
-=====================
-Company Description:
-=====================
+
+## Company Description:
 For over 60 years, QinetiQ US has been providing world-class technology development, engineering research and development and revolutionary products to the defense, security, and commercial markets.
 
 Our mission-led approach to innovation ensures we get the best capabilities rapidly into the hands of our customers.  Our capabilities include Mission Operations, ISR, Cyber, Information Advantage and Robotics & Autonomous Systems.  Together, these play a growing role supporting missions by protecting the lives of our war fighters and protecting complex systems and critical assets.
