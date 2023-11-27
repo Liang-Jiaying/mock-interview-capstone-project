@@ -1,0 +1,155 @@
+model,variable_combination,template,output
+gpt-4,1,"
+You are a {interviewer_role}, for {company_name}. Please review the following resume {resume}.
+For the role of {role_title}.
+(optional: Here is the job description: {role_description})
+(optional: Here is a description of the company: {company_description})
+Give point by point feedback with rationale and suggested edits.
+","Overall, the resume is quite impressive. It shows a strong educational background, relevant coursework, and practical experience in data science. Here are some specific points of feedback:
+
+1. Contact Information: Make sure to include your contact information, such as email and phone number, at the top of your resume. This is basic information that every employer will look for.
+
+2. Education: Good use of space to list relevant coursework and highlight high GPA. Your degrees and coursework align well with the job requirements.
+
+3. Experience: Great detail on specific achievements and responsibilities in previous roles. The use of quantifiable achievements is particularly effective. However, be sure to explain any industry-specific terms or acronyms (like NAPS or Rave) that might not be familiar to recruiters outside your immediate field.
+
+4. Projects: The detailed breakdown of your roles and responsibilities in these projects demonstrates your ability to work on a team and manage complex tasks. Make sure to highlight any experience with AI/ML models, as this is a key requirement for the role.
+
+5. Additional Information: Your programming skills are clearly listed, which is great. However, the job description mentions Java as a plus, so if you have any experience with it, make sure to include it. 
+
+6. Format: The resume is well-structured and easy to read. Make sure to keep a consistent format throughout. 
+
+7. Tailor your resume: Even though your resume is well-written, make sure to tailor it to the job description. Highlight your experience with AI/ML, cloud solutions, and digital platforms since these are mentioned in the job description. 
+
+8. Cover Letter: Consider attaching a cover letter with your application. This will allow you to further explain your interest in the role and why you would be a good fit.
+
+In conclusion, this resume is strong and shows a lot of promise. With a few minor tweaks, it would be well-suited for a Data Engineer - AI/ML role at S&P Global."
+gpt-4,1,"
+You are interviewing {company_name}, {role_title} role with a {interviewer_role}. 
+This is your resume {resume}. Please review the resume, job description, and company information below. 
+Give point by point feedback with rationale and suggested edits. Also, giving your examples based on your editing suggestions. 
+(optional: Here is the job description: {role_description}) 
+(optional: Here is a description of the company: {company_description})
+","Feedback: 
+
+1. Education: The educational background is highly relevant to the job role, however, the expected coursework can be removed as it is a future aspect and not directly related to the current job application. 
+
+   Suggestion: Remove ""Anticipated Coursework"" and only include ""Relevant Coursework"". 
+
+2. Experience: The experience section is detailed and shows relevant work in data science and AI/ML. However, it would be beneficial to highlight the use of Python or Java in the projects, as mentioned in the job description.
+
+   Suggestion: Include specific instances of Python or Java usage in the projects. 
+
+   Example: ""Implemented Python-based automation..."".
+
+3. Projects: The projects showcase relevant experience and skills but could benefit from more specific details about the AI/ML models used, as well as any software development methodologies applied.
+
+   Suggestion: Add details about specific AI/ML models and software development methodologies used in the projects.
+
+   Example: ""Developed a forecasting model using the Random Forest regression model in Python...""
+
+4. Additional Information: This section includes relevant programming skills. However, the job description mentions a basic understanding of machine learning and a passion for learning emerging technologies. 
+
+   Suggestion: Add a sentence about your interest and continuous learning in ML and other emerging technologies.
+
+   Example: ""Continuously learning and enhancing my skills in Machine Learning and keeping up with emerging technologies in the field of data science.""
+
+5. The job description mentions working with stakeholders, decision-making, and communication skills. These are not explicitly mentioned in your resume.
+
+   Suggestion: Add a section/point about your interpersonal skills, decision-making skills, and your experience working with stakeholders. 
+
+   Example: ""Strong decision-making skills with experience in working closely with stakeholders to understand business needs and develop solutions. Excellent communication skills with the ability to articulate complex data-related findings to non-technical individuals.""
+
+6. The recruiter may be interested in any experience with cloud solutions and digital platforms, mentioned in the job description.
+
+   Suggestion: If you have any experience with cloud solutions and digital platforms, do mention it in your resume.
+
+7. The job description requires the candidate to work independently and as part of a team.
+
+   Suggestion: Include instances in your resume where you demonstrated this ability. 
+
+   Example: ""Ability to work independently and collaboratively within a team, as evidenced by my role in XYZ project.""
+
+Overall, the resume is well-structured and shows a strong background in data science. Including more specific details related to the job description will make the resume even stronger."
+gpt-4,1,"
+You are set to interview for the {role_title} position at {company_name} with an interviewer holding the title {interviewer_role}. 
+Below you'll find your resume, the job description, and details about the company. 
+Please review each section of your resume and provide detailed feedback of how to tailor your resume based on the job description and company overview below, along with your rationale for each point. 
+If possible, include examples to support your suggested edits. 
+Your resume: {resume}.
+Job description: {role_description}.
+Company overview: {company_description}.
+","Resume feedback based on the job description and company overview:
+
+1. Objective: Start your resume with a clear and concise objective that reflects your career goal and how it aligns with the responsibilities of the Data Engineer - AI/ML position at S&P Global. For example, ""A highly skilled data science professional seeking to leverage my expertise in AI/ML for the Data Engineer position at S&P Global. Committed to developing innovative AI models to support business decision-making and drive operational efficiency.""
+
+2. Experience: Highlight your experience in software development, testing, and deploying AI models. For instance, under your internship at Washington University School of Medicine, you can rephrase ""Database & Data Management"" to ""Developed, tested, and deployed AI models for managing and updating databases, reducing time spent on tasks by 75% and improving overall system efficiency.""
+
+3. Skills: You have listed Python as one of your programming skills. Given that the job description states that experience with Python is a plus, consider highlighting this skill by moving it to the beginning of your list. Also, mention your understanding of machine learning as it is one of the job requirements.
+
+4. Projects: In your projects section, make sure to highlight any experience with AI/ML model development, deployment, or testing. For example, under the Insurance Claims Prediction for Asurion project, you can mention ""Developed and tested predictive AI models for insurance claim volume forecasting.""
+
+5. Learning: The job description mentions that the ideal candidate should be passionate about learning emerging technologies. Highlight your ongoing learning of Amazon Web Services (AWS), Google Cloud Platform (GCP), and Tableau as these platforms are widely used in AI/ML and data engineering roles.
+
+6. Tailoring to the Company: S&P Global is a global financial services company. Highlight any experience or coursework related to finance, risk management, or economics. For example, if you have any experience with financial data analysis, be sure to include it. 
+
+7. Format: Keep the format of your resume clean, concise, and professional. Use bullet points to list your duties and achievements in each role. This helps to make your resume easier to read and understand.
+
+8. Keywords: Always use keywords from the job description in your resume. This could increase your chances of passing an Applicant Tracking System (ATS), a software used by companies to filter out resumes based on keywords.
+
+9. Soft Skills: The job description highlights the need for excellent decision-making, interpersonal, and communication skills. Be sure to provide examples of these in your experience and projects sections."
+gpt-4,1,"
+As an {interviewer_role} with {company_name}, you're tasked with evaluating the given resume: {resume} for the {role_title} position. 
+Below are the details:
+Job Description: {role_description}
+Company Overview: {company_description}
+Please offer a detailed breakdown of suggestions to align the resume with the job description and company profile. 
+Ensure each recommendation is accompanied by a rationale.
+","Recommendation 1: Highlight Relevant Experience
+Rationale: The position requires 3-5 years of experience in software development and testing. The resume indicates experience in data science internships and projects but does not explicitly mention software development and testing experience. The candidate should highlight any relevant experience in software development and testing, even if it was part of a broader role or project. 
+
+Recommendation 2: Emphasize Machine Learning Skills
+Rationale: The job description mentions the implementation of machine learning algorithms and the evaluation of AI/ML models as key responsibilities. While the resume does mention machine learning in the education and experience sections, it would be helpful to elaborate on specific machine learning projects or experiences, detailing the models developed or evaluated.
+
+Recommendation 3: Include Experience with Stakeholder Engagement
+Rationale: The position requires working closely with stakeholders to understand business needs and develop solutions. The candidate has mentioned collaboration and stakeholder engagement in their projects, but it would be beneficial to detail these experiences further, highlighting the ability to understand and meet business needs.
+
+Recommendation 4: Detail Python or Java Experience
+Rationale: The job description mentions Python or Java programming experience as a plus. The candidate has listed Python as a programming skill, but there are no specific details of its application. The candidate should include specific examples of projects or tasks where they utilized Python.
+
+Recommendation 5: Highlight Teamwork Skills
+Rationale: The job position mentions the need for the ability to work independently and as part of a team. The candidate should emphasize instances of successful teamwork in their experience and projects.
+
+Recommendation 6: Emphasize Learning and Adaptability
+Rationale: The job description emphasizes the importance of learning emerging technologies. The candidate has indicated their ongoing learning through AWS and GCP, which should be highlighted as it shows the candidate's commitment to continuous learning and adaptability.
+
+Recommendation 7: Tailor Resume to S&P Global's Values and Industry
+Rationale: S&P Global is a financial services company that values analytics, intelligence, and sustainable finance. The candidate should tailor their resume to reflect these values, perhaps by mentioning relevant projects or experiences in these areas."
+gpt-4,1,"
+You are set to interview for the {role_title} position at {company_name} with an interviewer holding the title {interviewer_role}. 
+Below you'll find your resume, the job description, and details about the company. 
+Please review each section and provide detailed feedback, along with your rationale for each point. 
+If possible, include examples to support your suggested edits. 
+Your resume: {resume}.
+Job description: {role_description}.
+Company overview: {company_description}.
+","Recommendation 1: Highlight Relevant Experience
+Rationale: The position requires 3-5 years of experience in software development and testing. The resume indicates experience in data science internships and projects but does not explicitly mention software development and testing experience. The candidate should highlight any relevant experience in software development and testing, even if it was part of a broader role or project. 
+
+Recommendation 2: Emphasize Machine Learning Skills
+Rationale: The job description mentions the implementation of machine learning algorithms and the evaluation of AI/ML models as key responsibilities. While the resume does mention machine learning in the education and experience sections, it would be helpful to elaborate on specific machine learning projects or experiences, detailing the models developed or evaluated.
+
+Recommendation 3: Include Experience with Stakeholder Engagement
+Rationale: The position requires working closely with stakeholders to understand business needs and develop solutions. The candidate has mentioned collaboration and stakeholder engagement in their projects, but it would be beneficial to detail these experiences further, highlighting the ability to understand and meet business needs.
+
+Recommendation 4: Detail Python or Java Experience
+Rationale: The job description mentions Python or Java programming experience as a plus. The candidate has listed Python as a programming skill, but there are no specific details of its application. The candidate should include specific examples of projects or tasks where they utilized Python.
+
+Recommendation 5: Highlight Teamwork Skills
+Rationale: The job position mentions the need for the ability to work independently and as part of a team. The candidate should emphasize instances of successful teamwork in their experience and projects.
+
+Recommendation 6: Emphasize Learning and Adaptability
+Rationale: The job description emphasizes the importance of learning emerging technologies. The candidate has indicated their ongoing learning through AWS and GCP, which should be highlighted as it shows the candidate's commitment to continuous learning and adaptability.
+
+Recommendation 7: Tailor Resume to S&P Global's Values and Industry
+Rationale: S&P Global is a financial services company that values analytics, intelligence, and sustainable finance. The candidate should tailor their resume to reflect these values, perhaps by mentioning relevant projects or experiences in these areas."
