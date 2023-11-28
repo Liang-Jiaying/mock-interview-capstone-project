@@ -1,0 +1,86 @@
+model,variable_combination,template,output
+gpt_4,1,"
+Generate a cover letter template for {role_title} at {company_name}.
+
+Here is the student's resume:
+{resume}
+
+Here are the job description and company background that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here is the outline for how to creat a cover letter template:
+Develop a Cover Letter Template
+1. Create Adaptable Template
+a. Basic Structure: Establish a clear and concise structure with an introduction, body, and conclusion.
+b. Personalize the Opening: Prepare a flexible opening that can be customized to address the specific hiring manager or team.
+c. Leave Space for Role-Specific Details: Design sections that can be easily modified to reflect the specific job and company.
+2. Incorporate Key Skills and Experiences
+a. Highlight Transferable Skills: Emphasize skills that are valuable across various roles and industries.
+b. Include Achievements: Add sections to incorporate specific accomplishments relevant to the job.
+c. Make It Result-Oriented: Focus on how your skills and experiences can benefit the potential employer.
+3. Ensure Easy Customization for Specific Roles
+a. Use Modifiable Sections: Create parts of the letter that can be easily changed for different job applications.
+b. Align with Job Description: Set up placeholders to insert keywords and requirements from the job description.
+c. Tailor to Company Culture: Prepare a segment to adapt based on the company’s culture and values as described on their website or social media.
+","Dear [Hiring Manager's Name],
+
+I am writing to express my interest in the Data Engineer - AI/ML (Virtual) position at S&P Global. As a Master's student at Vanderbilt University’s Data Science Institute with a Bachelor's degree in Data Science and Mathematics, I have honed my skills in Python, SQL, and R, which align with the key requirements of this role. I am particularly excited about the opportunity to join a globally recognized firm like S&P Global and contribute to your mission of providing essential intelligence for smarter decision-making.
+
+During my tenure at Washington University School of Medicine – Institute for Informatics as a Data Science Intern, I successfully implemented Python-based automation to improve data quality control, reducing document download time by a significant 99.2%. I also optimized database updates using Python and Rave, achieving a 75% time reduction in updating birth records. These experiences have equipped me with a strong understanding of machine learning algorithms and data management, which are crucial for the AI/ML initiative at S&P Global.
+
+For my Capstone Project at Vanderbilt University, I led a team to develop a Mock Interview Practice Application. I managed the project timeline, coordinated team efforts, and contributed to the application codebase. This experience honed my ability to understand user needs, design user-friendly interfaces, and develop effective solutions. I believe these skills will be particularly useful in working closely with stakeholders at S&P Global to understand their business needs and deliver tailored AI solutions.
+
+Moreover, I have a solid foundation in software development and testing, having participated in multiple data science projects. For instance, in a project with Asurion, I developed a forecasting model using Python to predict iPhone 14 claim volume. My role required extensive data collection, cleaning, analysis, and modeling, all of which are critical for the Data Engineer - AI/ML role at S&P Global.
+
+I am passionate about continuous learning and exploring emerging technologies. I am currently expanding my knowledge in cloud services like Amazon Web Services (AWS) and Google Cloud Platform (GCP). I am confident that my academic and professional experiences, coupled with my dedication to learning, align well with the requirements and responsibilities of this role.
+
+I am excited about the opportunity to contribute to S&P Global's AI/ML initiative with my skills and experiences. I look forward to the possibility of discussing how I can assist your team in making smarter decisions through the development and deployment of AI models.
+
+Thank you for considering my application.
+
+Sincerely,
+[Your Name]"
+gpt_4,1,"
+As an experienced career coach, you help students improve their skills in
+writing a cover letter to get job interviews.  Please help this student write a 
+cover letter template for {role_title} at {company_name}.
+
+Here is the student's resume:
+{resume}
+
+Here are the job description and company background that you might want to consider:
+Job Description: {role_description}
+Company Background: {company_description}
+
+Here is the outline for how to creat a cover letter template:
+Develop a Cover Letter Template
+1. Create Adaptable Template
+a. Basic Structure: Establish a clear and concise structure with an introduction, body, and conclusion.
+b. Personalize the Opening: Prepare a flexible opening that can be customized to address the specific hiring manager or team.
+c. Leave Space for Role-Specific Details: Design sections that can be easily modified to reflect the specific job and company.
+2. Incorporate Key Skills and Experiences
+a. Highlight Transferable Skills: Emphasize skills that are valuable across various roles and industries.
+b. Include Achievements: Add sections to incorporate specific accomplishments relevant to the job.
+c. Make It Result-Oriented: Focus on how your skills and experiences can benefit the potential employer.
+3. Ensure Easy Customization for Specific Roles
+a. Use Modifiable Sections: Create parts of the letter that can be easily changed for different job applications.
+b. Align with Job Description: Set up placeholders to insert keywords and requirements from the job description.
+c. Tailor to Company Culture: Prepare a segment to adapt based on the company’s culture and values as described on their website or social media.
+","Dear [Hiring Manager's Name],
+
+I am writing to express my interest in the Data Engineer - AI/ML (Virtual) position at S&P Global. As a Masters student in Data Science from Vanderbilt University with a strong interest in AI and machine learning, I believe I am well-suited to contribute to your team. I am excited about the prospect of working with S&P Global, a company that is committed to providing essential intelligence to power decision-making.
+
+My academic and professional experiences have equipped me with a strong foundation in data science, including coursework in Data Science Algorithms, Machine Learning, and practical applications in industry. During my internship at the Washington University School of Medicine, I successfully implemented Python-based automation for data quality control, reducing document download time by 99.2%. I also leveraged Python and Rave to optimize database updates, achieving a 75% time reduction. These experiences have honed my skills in software development, data collection, and cleaning, which are critical for the role at S&P Global.
+
+As part of my capstone project at Vanderbilt University, I have been involved in the design and development of a Mock Interview Practice Application. My role as a project manager and code contributor involved applying agile project management methodologies and data science techniques, aligning well with the responsibilities of the Data Engineer role. I am confident that my ability to work closely with stakeholders, understand their needs, and develop solutions around those needs would be beneficial for S&P Global.
+
+In addition to my technical skills, I bring strong problem-solving abilities and a passion for learning emerging technologies. I am familiar with cloud solutions and digital platforms and am currently learning to use Amazon Web Services (AWS) and Google Cloud Platform (GCP). I am excited about the opportunity to implement machine learning algorithms, work closely with the QA team, and develop and deploy AI models at S&P Global.
+
+S&P Global’s commitment to diversity, flexibility, and returning to work initiatives resonate with my values. I am confident that my skills and passion for data science would make me a great fit for your team.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I could contribute to the AI/ML initiative at S&P Global.
+
+Sincerely,
+[Your Name]
+"
