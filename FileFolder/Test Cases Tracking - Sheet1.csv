@@ -1,0 +1,29 @@
+#,tab,test description,expected result,actual result,conclusion,Improve Suggestion
+1,API,do not input API key,give error,still print out key received,fail,"1. add error message when user input empty string
+2. show how to get one"
+2,API,input wrong API,give error,still print out key received,fail,"1. check length
+2. check pattern"
+3,API-other,not input API,give error,give error,pass,1. give an error message shows forget to input API
+4,Resume&Cover Letter,not input anything for required field,give error,give error,pass,"1. give the detailed error message
+2. they reason why it does not run is that resume.pdf is not uploaded, if we do upload resume but not input other required field, it will still run but give a general result"
+5,Resume,random fake company name,give some feedback,"still give feedback for the resume, but more general",pass,
+6,Resume,"[w/out details]
+compare the result with and without company & job description",result with detail is better,with details perform better,pass,1. suggest users to give more details
+7,Cover Letter,"[w/out details]
+compare the result with and without company & job description",result with detail is better,with details perform better,pass,1. suggest users to give more details
+8,Cover Letter,set resume as optional,"will generate cover letter still, but more general, some information might not applicable to users",,,
+9,Question&Answer,not input anything for required field,give error,"still runs, and give some result",fail,"1. I think we can leave it in this way since the result without any input is general, sometimes even it runs but the results will tell they need user to input info
+2. do not let it run until all required filed are been filled"
+10,Question,"[w/out details]
+compare the result with and without company & job description",result with detail is better,with detials perform so much better,pass,1. suggest users to give more details
+11,Answer,"[w/out details]
+compare the result with and without company & job description",result with detail is better,more details better,pass,1. suggest users to give more details
+12,,,,,,
+13,,,,,,
+14,,,,,,
+15,,,,,,
+16,,,,,,
+17,,,,,,
+18,,,,,,
+19,,,,,,
+20,,,,,,
