@@ -59,7 +59,7 @@ No need to include feedback on formatting.
 
 # 2.2 define resume_review function
 def resume_review(comp_name, job_title, interviewer_title,
-                  comp_info="", job_des="", interviewer_url="",
+                  comp_info="", job_des="", #interviewer_url="",
                   your_resume=""):
 
   #### Step 1: Create prompt ####
@@ -108,8 +108,8 @@ resume_review_tab = gr.Interface(
                          placeholder="Sepcial information about this company you want to include"),
               gr.Textbox(label="Job Description (Optional)",
                          placeholder="Paste the job description here ..."),
-              gr.Textbox(label="Interviewer's LinkedIn URL (Optional)",
-                         placeholder="Paste the URL here ..."),
+              #gr.Textbox(label="Interviewer's LinkedIn URL (Optional)",
+              #           placeholder="Paste the URL here ..."),
               gr.File(file_types=[".pdf"])
     ],
     outputs = gr.Textbox(label="Feedbacks", lines=50,
