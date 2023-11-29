@@ -13,7 +13,7 @@ Objectives of the Personal Career Coach Project:
 
 Rationale Behind These Goals:
 1. **Resume Review**: A standout resume is your first step towards securing an interview. Our review process helps you customize your resume for specific jobs and companies, increasing the alignment of your qualifications.
-2. **Cover Letter Crafting**: Crafting individual cover letters for each application is time-consuming. Recruiters often prefer applications that include a cover letter. Our tool helps you create specific, personalized cover letters efficiently, saving you from repeatedly editing the same template.
+2. **Cover Letter Crafting**: Recruiters often prefer applications that include a cover letter. Crafting individual cover letters for each application is time-consuming. Our tool helps you create specific, personalized cover letters efficiently, saving you from repeatedly editing the same template.
 3. **Interview Question Generator**: Interviews often feature similar questions framed in the context of the company. Our generator provides a range of questions, including direct, behavioral, and technical, to help you anticipate and prepare for what you might be asked.
 4. **Interview Response Enhancement**: Crafting responses to interview questions requires effort, from selecting appropriate examples to structuring your story in an engaging manner. Despite thorough preparation, it's challenging to gauge the effectiveness of your answers. Our tool offers insights on enhancing your responses and provides examples of improved answers based on your initial attempts.
  
