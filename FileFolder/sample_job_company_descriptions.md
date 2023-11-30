@@ -5,6 +5,7 @@ Note: Those information are from LinkedIn. I will provide the job link but those
 [1. Data Scientist - Johnson & Johnson](#1-data-scientist---johnson--johnson)  
 [2. Data Scientist - TikTok Ads](#2-data-scientist---tiktob-ads)  
 [3. Data Scientist - QinetiQ US](#3-data-scientist---qinetiq-us)  
+[4. Data Analyst - Deloitte](#4-data-analyst---deloitte)
 
 
 # 1. Data Scientist - Johnson & Johnson  
@@ -213,3 +214,50 @@ Founded
 Specialties
 Unmanned Systems, Military Survivability, Maritime Capabilities, Utility Monitoring, Smart Grid Technology, Military Armor, Aircraft Armor, Soldier Protection, Gunshot Detection, RPG Protection, Security Robots, CBRNE/HazMat Robots, Armor Protection, Robots, Military Robots, Manufacturing Process Improvement, Sensing Systems, and Mission-led innovation
 
+
+# 4. Data Analyst - Deloitte
+[link](https://www.linkedin.com/jobs/view/3767564360)
+## Job Description:   
+About the job
+Are you looking to make an impact by helping agencies meet their mission goals through successful implementation and operation of their regulatory, mission or compliance programs? Are you ready to help our clients mitigate risks that arise from transformational core business operational change or ongoing operations? Are you interested in helping clients transform how they operate their business to be more effective? If so, Deloitte's Regulatory Compliance team could be the place for you! Our team brings professionals with diverse skillsets including deep experience in industry, AI-enabled data analytics, statistical modeling, and cloud technologies to help our clients preserve their reputation and public trust of their agencies while managing regulatory demands.
+
+Work you'll do
+
+Perform day-to-day quantitative risk analysis including the development, maintenance, and operations of a suite of advanced analytical, econometric, and AI models and business intelligence tools.
+Be accountable for interpreting and translating results, trends, and takeaways to team members, clients, and executive leadership with varying levels of subject matter knowledge.
+Drive the production of predictive analytic reports, responsible for executing key modeling governance activities around change management, performance monitoring, and testing, in alignment with industry best practices.
+Develop and lead new, innovative analyses which may include dataset manipulation and transformation, piloting of cutting-edge AI and machine learning analytical techniques and technologies, and transformation of static reporting into dynamic visualizations.
+This is a cross-functional role where teams will interact with data collection, reporting, system designers, architects, database administrators, and cyber risk professionals to assist, from a business prospective, in overall production processes to enhance the value delivered to our clients.
+
+The team 
+
+Deloitte's Government and Public Services (GPS) practice - our people, ideas, technology and outcomes-is designed for impact. Serving federal, state, & local government clients as well as public higher education institutions, our team of over 15,000+ professionals brings fresh perspective to help clients anticipate disruption, reimagine the possible, and fulfill their mission promise.
+
+We bring a diverse set of forward thinking capabilities to help agencies proactively manage risks they face in their dynamically changing environments. Our team assesses and transforms the process, controls, and/or infrastructure needed to help our clients address a wide variety of regulatory and compliance risks. We leverage solutions that align to the end-to-end regulatory lifecycle through leveraging AI technology and innovative solutions that incorporate industry as well as domain knowledge.
+
+Qualifications:
+
+2 + years of experience with data quality analysis, statistical analysis and/or modeling, financial or cost analysis, internal controls, and/or external/internal financial audit
+Experience across the entire model development lifecycle, including interacting with model risk management teams and executing model governance best practices
+Deep technical understanding, including proficiency in an analytical programming language, such as SQL , Python, or R, to provide clear technical direction, mentoring and growing the skills of your team
+Hands-on development experience of AI and machine learning models, packages, or COTS tools, with corresponding model risk management and governance of AI and machine learning (e.g., bias)
+Strong executive presentation skills, able to strategically and effectively communicate with both external and internal stakeholders, as well as collaboratively across business units, technology, and policy teams
+Bachelor's Degree in Economics, Finance, Statistics, Mathematics, Computer Science, Management Information Systems, Engineering, Business Analytics disciplines, or related area
+Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future
+Ability to obtain and maintain the required clearance for this role
+
+Preferred:
+
+Master's degree
+Development experience of explainable AI (XAI) algorithms and frameworks
+Development of AI audit and ethics frameworks
+CFA, FRM, INFORMS CAP, or similar industry certificate
+
+For individuals assigned and/or hired to work in California, Colorado, Jersey City, Nevada, New York state, and Washington State, Deloitte is required by law to include a reasonable estimate of the compensation range for this role. This compensation range is specific to California, Colorado, Jersey City, Nevada, New York state, and Washington state and takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $66,120-$92,800.
+
+## Company Description: 
+Deloitte drives progress. Our firms around the world help clients become leaders wherever they choose to compete. Deloitte invests in outstanding people of diverse talents and backgrounds and empowers them to achieve more than they could elsewhere. Our work combines advice with action and integrity. We believe that when our clients and society are stronger, so are we.
+
+Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited (“DTTL”), its global network of member firms, and their related entities. DTTL (also referred to as “Deloitte Global”) and each of its member firms are legally separate and independent entities. DTTL does not provide services to clients. Please see www.deloitte.com/about to learn more.
+
+The content on this page contains general information only, and none of Deloitte Touche Tohmatsu Limited, its member firms, or their related entities (collectively the “Deloitte Network”) is, by means of this publication, rendering professional advice or services. Before making any decision or taking any action that may affect your finances or your business, you should consult a qualified professional adviser. No entity in the Deloitte Network shall be responsible for any loss whatsoever sustained by any person who relies on content from this page.
