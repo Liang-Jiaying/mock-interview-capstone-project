@@ -1,6 +1,9 @@
-# Personal Career Coach
+# Mock Interview App: Your Personal Career Coach
 [Hugging Face Space: MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
 [Video Recording: Overview](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/c96fdb11-1b9c-46db-9713-735a346069bd)  
+
+<img width="500" alt="Screenshot 2023-12-12 at 11 37 16 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/6808b9c3-3514-483b-838c-380cb3b744fd">
+
 
 ### Overview
 Have you ever found yourself in the midst of job hunting season, overwhelmed with tasks on your to-do list, yet unsure where to start or how to make that first step? Our Personal Career Coach understands your struggles and offers personalized assistance to guide you.    
@@ -74,7 +77,8 @@ In the development of our project, we exclusively utilized GPT-4, accessed via t
 ## Gradio Demo
 [HuggingFace Space: jiaying2022/MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
 
-<img width="1427" alt="Screenshot 2023-11-24 at 7 24 41 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/ff3f2427-b8ef-487e-ab05-f3c4cc3215d3">
+<img width="1406" alt="Screenshot 2023-12-12 at 11 37 16 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/ee0e038a-1dae-4b8b-b11d-3b912e96211f">
+
 
 # Critical Analysis
 
