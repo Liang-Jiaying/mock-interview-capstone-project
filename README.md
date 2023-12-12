@@ -1,6 +1,9 @@
-# Personal Career Coach
+# Mock Interview App: Your Personal Career Coach
 [Hugging Face Space: MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
 [Video Recording: Overview](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/c96fdb11-1b9c-46db-9713-735a346069bd)  
+
+![DALL·E 2023-12-12 08 55 17 - An updated poster for the 'Mock Interview App_ Your Personal Career Coach', targeting students  The top features the logo with three cartoon-style cha](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/42f244e7-13a3-4d9b-a5c9-5fe8cde64ca4)
+
 
 ### Overview
 Have you ever found yourself in the midst of job hunting season, overwhelmed with tasks on your to-do list, yet unsure where to start or how to make that first step? Our Personal Career Coach understands your struggles and offers personalized assistance to guide you.    
