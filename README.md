@@ -2,7 +2,7 @@
 [Hugging Face Space: MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
 [Video Recording: Overview](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/c96fdb11-1b9c-46db-9713-735a346069bd)  
 
-![DALL·E 2023-12-12 08 55 17 - An updated poster for the 'Mock Interview App_ Your Personal Career Coach', targeting students  The top features the logo with three cartoon-style cha](https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/42f244e7-13a3-4d9b-a5c9-5fe8cde64ca4)
+<img width="500" alt="Screenshot 2023-12-12 at 11 37 16 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/6808b9c3-3514-483b-838c-380cb3b744fd">
 
 
 ### Overview
@@ -77,7 +77,8 @@ In the development of our project, we exclusively utilized GPT-4, accessed via t
 ## Gradio Demo
 [HuggingFace Space: jiaying2022/MockInterviewApp](https://huggingface.co/spaces/jiaying2022/MockInterviewApp)  
 
-<img width="1427" alt="Screenshot 2023-11-24 at 7 24 41 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/ff3f2427-b8ef-487e-ab05-f3c4cc3215d3">
+<img width="1406" alt="Screenshot 2023-12-12 at 11 37 16 AM" src="https://github.com/Liang-Jiaying/mock-interview-capstone-project/assets/111295386/ee0e038a-1dae-4b8b-b11d-3b912e96211f">
+
 
 # Critical Analysis
 
